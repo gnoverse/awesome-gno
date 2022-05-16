@@ -22,11 +22,14 @@ Where to discover learning resources or new Gno stuff.
 ## Tutorials
 
 * [Quickstart guide](https://gno.land/r/boards:gnolang/4)
-* [A Beginner’s Guide to the Gnoland Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the Testnet.
 
 ## Newsletters
 
 * [`@_gnoland` on Twitter](https://twitter.com/_gnoland)
+
+## Insights
+
+* [If You Gno, You Know](https://medium.com/@onbloc/if-you-gno-you-know-63610bf99cc4)
 
 # Contributing
 
