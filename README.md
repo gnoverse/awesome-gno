@@ -17,7 +17,7 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 3. [Tutorials](#tutorials)
 4. [Social](#social)
 5. [Misc](#misc)
-6. [Contributing](##contributing)
+6. [Contributing](#contributing)
 
 ## Official
 
