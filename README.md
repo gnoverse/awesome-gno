@@ -1,34 +1,55 @@
+<div align="center">
+	<img src="./banner.png" />
+</div>
+
 # Awesome Gno [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-A curated list of awesome Gno frameworks, libraries, software and resources.
+A curated list of awesome frameworks, libraries, software and resources related to the <a href='https://gno.land'>Gnoland</a> blockchain.
+
+Gnoland is a robust blockchain that provides concurrency and scalability with smart contracts programmed in Gno, a Go interpreter.
 
 > Do you gno?
+ 
+## Contents
 
-- [Awesome Gno](#awesome-gno)
-	- [General](#general)
-- [Resources](#resources)
-- [Contributing](#contributing)
+1. [Official](#official)
+2. [Documentation](#documentation)
+3. [Tutorials](#tutorials)
+4. [Social](#social)
+5. [Misc](#misc)
+6. [Contributing](#contributing)
 
-## General
+## Official
 
-*Default category.*
+* [gno.land](https://gno.land/) - The official website of the project.
+* [gno](https://github.com/gnolang/gno) - Main repo of the project, contains the core libraries and tools.
 
-* [gno](https://github.com/gnolang/gno) - main repo of the project, contains the core libraries and tools.
+## Documentation
 
-# Resources
-
-Where to discover learning resources or new Gno stuff.
+* [README](https://github.com/gnolang/gno#readme)
+* [Roadmap](https://github.com/gnolang/gno/blob/master/ROADMAP.md)
+* [Plan](https://github.com/gnolang/gno/blob/master/PLAN.md)
+* [Philosophy](https://github.com/gnolang/gno/blob/master/PHILOSOPHY.md)
 
 ## Tutorials
 
-* [Quickstart guide](https://gno.land/r/boards:gnolang/4)
+* [Quickstart Guide](https://gno.land/r/boards:gnolang/4) - How to start interacting with the blockchain.
 * [A Beginner’s Guide to the Gnoland Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the testnet.
 
-## Newsletters
+## Social
 
-* [`@_gnoland` on Twitter](https://twitter.com/_gnoland)
+* [Discord](https://discord.gg/3YbdqVP8Tb)
+* [Telegram](https://t.me/gnoland)
+* [Twitter](https://twitter.com/_gnoland)
+* [Gnoland Boards](https://gno.land/r/boards)
 
-# Contributing
+## Misc
+
+* [Bounties](https://github.com/gnolang/bounties)
+* [Assets](https://github.com/gnolang/gno/tree/master/gnoland/assets)
+* [Peace](https://github.com/gnolang/gno/blob/master/gnoland/docs/peace.md)
+
+## Contributing
 
 Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/gnolang/awesome-gno/blob/master/CONTRIBUTING.md) first.
 
