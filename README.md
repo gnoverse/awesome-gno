@@ -14,10 +14,11 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 
 1. [Official](#official)
 2. [Documentation](#documentation)
-3. [Tutorials](#tutorials)
-4. [Social](#social)
-5. [Misc](#misc)
-6. [Contributing](#contributing)
+3. [Tools](#tools)
+4. [Tutorials](#tutorials)
+5. [Social](#social)
+6. [Misc](#misc)
+7. [Contributing](#contributing)
 
 ## Official
 
@@ -30,6 +31,10 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 * [Roadmap](https://github.com/gnolang/gno/blob/master/ROADMAP.md)
 * [Plan](https://github.com/gnolang/gno/blob/master/PLAN.md)
 * [Philosophy](https://github.com/gnolang/gno/blob/master/PHILOSOPHY.md)
+
+## Tools
+
+* [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/boards.
 
 ## Tutorials
 
