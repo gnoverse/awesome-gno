@@ -35,6 +35,7 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 ## Tools
 
 * [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/boards.
+* [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
 
 ## Tutorials
 
