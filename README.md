@@ -25,6 +25,7 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 * [gno.land](https://gno.land/) - The official website of the project.
 * [gno](https://github.com/gnolang/gno) - Main repo of the project, contains the core libraries and tools.
 * [staging.gno.land](https://staging.gno.land/) - Staging environment, resetted perdiodically.
+* [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
 * [test2.gno.land](https://test2.gno.land/) - Second official testnet environment.
 
 ## Documentation
