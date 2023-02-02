@@ -52,12 +52,14 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 * [Gnolang Basics](https://github.com/moul/gno-basics) - Simple examples of Gnolang contracts.
 * [Hello Gno!](https://github.com/xplrz/gnoland-workshop) - Step by step workshop to learn Gnolang and Gnoland features.
 * [Gnoland Developer Portal](https://github.com/onbloc/gnoland-tutorials) - All-in-one place for Gnoland developers, providing introductions, tutorials with detailed examples, and developer resources.
+* [Gno Smart Contract Demo](https://www.youtube.com/watch?v=-BlnEXCs0eI) - A short video tutorial on writing and deploying a simple Realm and Package.
 
 ## Social
 
 * [Discord](https://discord.gg/3YbdqVP8Tb)
 * [Telegram](https://t.me/gnoland)
 * [Twitter](https://twitter.com/_gnoland)
+* [YouTube](https://www.youtube.com/@_gnoland)
 * [Gnoland Boards](https://gno.land/r/boards)
 
 ## Misc
