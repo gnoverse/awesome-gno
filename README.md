@@ -68,6 +68,7 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 * [Assets](https://github.com/gnolang/gno/tree/master/gnoland/assets) - Official logo and assets.
 * [Peace](https://github.com/gnolang/gno/blob/master/gnoland/docs/peace.md) - Call for peace.
 * [GitPOAP](https://www.gitpoap.io/gh/gnolang) - Contributors (Git) can mint POAPs.
+* [Workshops & Talks](https://github.com/gnolang/workshops) - Slides and materials.
 
 ## Tips & Snippets
 
