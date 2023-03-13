@@ -1,0 +1,62 @@
+name: Build README.md and Website
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    name: Update README.md and Website
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Go
+        uses: actions/setup-go@v3
+        with:
+          go-version: "stable"
+      - name: Run script
+        run: go run .github/scripts/github-generator/generator.go
+      - name: Configure Git
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+      - name: Check if README was modified
+        run: |
+          if ! git diff --quiet README.md; then
+            git commit -am "Update README.md"
+            git push
+          fi
+      - name: Check if Website was modified
+        run: |
+          if ! git diff --quiet website/index.html; then
+            git commit -am "Update website"
+            git push
+          fi
+  deploy-website:
+    name: Deploy Website
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: "website"
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

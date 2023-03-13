@@ -1,0 +1,32 @@
+title,link,description,category
+gno.land,https://gno.land,The official website of the project.,Official
+gno,https://github.com/gnolang/gno,"Main repo of the project, contains the core libraries and tools.",Official
+staging.gno.land,https://staging.gno.land,"Staging environment, resetted perdiodically.",Official
+test1.gno.land,https://test1.gno.land,"First official testnet environment (archive).",Official
+test2.gno.land,https://test2.gno.land,"Second official testnet environment (archive).",Official
+test3.gno.land,https://test3.gno.land,"Third official testnet environment.",Official
+README,https://github.com/gnolang/gno#readme,,Documentation
+Roadmap,https://github.com/gnolang/gno/blob/master/ROADMAP.md,,Documentation
+Plan,https://github.com/gnolang/gno/blob/master/PLAN.md,,Documentation
+Philosophy,https://github.com/gnolang/gno/blob/master/PHILOSOPHY.md,,Documentation
+Gno to Discord,https://github.com/PoCInnovation/PoCLab,Send notifications on Discord for new content on https://gno.land/r/boards.,Tools
+Adena Wallet,https://adena.app/,"Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.",Tools
+Keplr Integration,https://github.com/gnolang/gno/pull/154,"WIP Integration with the Keplr browser extension.",Tools
+Gnoscan,http://gnoscan.io/,"Gnoscan is a Gnoland blockchain explorer, making on-chain data legible and intuitive for everyone.",Tools
+Quickstart Guide,https://test2.gno.land/r/boards:testboard/5,How to start interacting with the blockchain.,Tutorials
+A Beginner’s Guide to the Gnoland Testnet,https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4,A visual guide to creating a wallet and receiving $GNOTs on the testnet.,Tutorials
+Gnolang 101,https://github.com/onbloc/gnolang-101,A course designed for aspiring smart-contract developers on Gnoland.,Tutorials
+Gnolang Basics,https://github.com/moul/gno-basics,Simple examples of Gnolang contracts.,Tutorials
+Hello Gno!,https://github.com/xplrz/gnoland-workshop,Step by step workshop to learn Gnolang and Gnoland features.,Tutorials
+Gnoland Developer Portal,https://github.com/onbloc/gnoland-tutorials,"All-in-one place for Gnoland developers, providing introductions, tutorials with detailed examples, and developer resources.",Tutorials
+Gno Smart Contract Demo,https://www.youtube.com/watch?v=-BlnEXCs0eI,A short video tutorial on writing and deploying a simple Realm and Package.,Tutorials
+Discord,https://discord.gg/3YbdqVP8Tb,Official Discord server for Gnoland community.,Social
+Telegram,https://t.me/gnoland,Official Telegram group for Gnoland community.,Social
+Twitter,https://twitter.com/_gnoland,Official Twitter account for Gnoland.,Social
+YouTube,https://www.youtube.com/@_gnoland,Official YouTube channel for Gnoland.,Social
+Gnoland Boards,https://gno.land/r/boards,Official forum for Gnoland community.,Social
+Bounties,https://github.com/gnolang/bounties,Legacy official bounty board.,Misc
+Assets,https://github.com/gnolang/gno/tree/master/gnoland/assets,Official logo and assets.,Misc
+Peace,https://github.com/gnolang/gno/blob/master/gnoland/docs/peace.md,Call for peace.,Misc
+GitPOAP,https://www.gitpoap.io/gh/gnolang,Contributors (Git) can mint POAPs.,Misc
+Workshops & Talks,https://github.com/gnolang/workshops,Slides and materials.,Misc

@@ -1,0 +1,262 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* awesome-gno */
+@import url("./font/font.css");
+
+body {
+  background-color: #121212;
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(18, 18, 18, 1) 0%,
+    rgba(102, 0, 46, 1) 55%,
+    rgba(18, 18, 18, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(18, 18, 18, 1) 0%,
+    rgba(102, 0, 46, 1) 55%,
+    rgba(18, 18, 18, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(18, 18, 18, 1) 0%,
+    rgba(102, 0, 46, 1) 55%,
+    rgba(18, 18, 18, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#121212",endColorstr="#121212",GradientType=1);
+  margin: auto;
+  width: 960px;
+  padding: 3rem;
+  font-size: 16px;
+  font-family: "Roboto Mono", "Courier New", "sans-serif";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+.header {
+  text-align: center;
+  color: #f7f7f7;
+  padding: 1rem;
+}
+
+.header__title {
+  font-size: 2rem;
+  padding: 0.6em;
+  font-weight: 700;
+}
+
+.header__description,
+.header__subdescription {
+  font-size: 1.2em;
+  padding: 0.8em 0.2em;
+  color: #c4b6b8;
+}
+
+.main {
+  padding: 1rem;
+  margin-top: 2.5rem;
+  background-color: #f7f7f7;
+  border-radius: 0.4rem;
+  border-bottom-width: 1px;
+  border-color: #e5e7eb;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  text-align: left;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.repo_link {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.main__sidebar {
+  flex: 2;
+}
+
+.sidebar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+}
+
+.sidebar__item {
+  padding: 4px 10px;
+  background-color: #fefefe;
+  margin-bottom: 6px;
+  border-radius: 0.4rem;
+  font-size: 0.875rem;
+}
+
+.sidebar__item:hover {
+  background-color: #f7f7f7;
+}
+
+.sidebar__link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #121212;
+}
+
+.sidebar__count {
+  background-color: #f7f7f7;
+  padding: 0.3rem 0.6rem;
+  border-radius: 0.4rem;
+}
+
+.main__content {
+  flex: 5;
+}
+
+.section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.section__header {
+  padding-bottom: 1em;
+}
+
+.section__title {
+  font-size: 1.4em;
+  color: #121212;
+  font-weight: 600;
+  padding-bottom: 0.4em;
+}
+
+.section__item {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.section__item--staffpick {
+  border-radius: 0.4rem;
+  padding: 0.8rem;
+  margin: 0.8rem 0;
+  background-color: rgba(102, 0, 46, 0.05);
+}
+
+.item__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.item__description {
+  padding: 0.6em 0;
+}
+
+.item__badge {
+  height: 2.5rem;
+  width: auto;
+}
+
+.item__link {
+  color: #66002e;
+  font-weight: 600;
+}
+
+.item__link:hover {
+  color: #cd0035;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0;
+    width: auto;
+    padding: 0;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .item__title {
+    flex-direction: column-reverse;
+    align-items: start;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  body {
+    margin: 0;
+    width: auto;
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    margin: 0;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    margin: auto;
+    width: 960px;
+    padding: 50px;
+  }
+}

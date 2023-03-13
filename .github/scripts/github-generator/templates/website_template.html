@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A curated list of awesome frameworks, libraries, software and resources related to the Gnoland blockchain."
+    />
+    <meta
+      name="keywords"
+      content="Gnoland, Gno, blockchain, awesome, resources"
+    />
+    <meta property="og:title" content="Awesome Gno" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/gnolang/awesome-gno" />
+    <meta
+      property="og:description"
+      content="A curated list of awesome frameworks, libraries, software and resources related to the Gnoland blockchain."
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome Gno</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__logo">
+        <img class="logo__img" width="200" src="img/logo.png" alt="gno" />
+      </div>
+      <h1 class="header__title">Awesome GNØ</h1>
+      <a href="https://github.com/sindresorhus/awesome">
+        <img
+          src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"
+          alt="Awesome"
+        />
+      </a>
+      <p class="header__description">
+        A curated list of awesome frameworks, libraries, software and resources
+        related to the Gnoland blockchain.
+      </p>
+      <p class="header__subdescription">
+        Gnoland is a robust blockchain that provides concurrency and scalability
+        with smart contracts programmed in Gno, a Go interpreter.
+      </p>
+    </div>
+
+    <div class="main">
+      <div class="main__sidebar">
+        <nav aria-label="Sidebar" class="sidebar">
+          <ul class="sidebar__list">
+            {{ range . }}
+            <li class="sidebar__item">
+              <a class="sidebar__link" href="#{{ .Slug }}" aria-current="page">
+                <span class="sidebar__title">{{ .Title }}</span>
+                <span class="sidebar__count">{{ len .Entries }}</span>
+              </a>
+            </li>
+            {{ end }}
+          </ul>
+        </nav>
+      </div>
+      <div class="main__content">
+        {{ range . }}
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title" id="{{ .Slug }}">{{ .Title }}</h2>
+            {{ if .Note }}
+            <p class="section__description">{{ .Note }}</p>
+            {{ end }}
+          </div>
+          <ul class="section__list">
+            {{ range .Entries }}
+            <li
+              class="section__item{{ if .IsStaffPick }} section__item--staffpick{{ end }}"
+            >
+              <div class="item__title">
+                <a class="item__link" href="{{ .Link }}">{{ .Title}}</a>
+                {{ if .IsStaffPick }}<img
+                  class="item__badge"
+                  src="img/staffpick.png"
+                  alt="Gno Staff Pick"
+                />{{ end }}
+              </div>
+              <p class="item__description">{{ .Description }}</p>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </body>
+</html>

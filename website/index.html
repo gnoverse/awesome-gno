@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A curated list of awesome frameworks, libraries, software and resources related to the Gnoland blockchain."
+    />
+    <meta
+      name="keywords"
+      content="Gnoland, Gno, blockchain, awesome, resources"
+    />
+    <meta property="og:title" content="Awesome Gno" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://github.com/gnolang/awesome-gno" />
+    <meta
+      property="og:description"
+      content="A curated list of awesome frameworks, libraries, software and resources related to the Gnoland blockchain."
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Awesome Gno</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="header__logo">
+        <img class="logo__img" width="200" src="img/logo.png" alt="gno" />
+      </div>
+      <h1 class="header__title">Awesome GNØ</h1>
+      <a href="https://github.com/sindresorhus/awesome">
+        <img
+          src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"
+          alt="Awesome"
+        />
+      </a>
+      <p class="header__description">
+        A curated list of awesome frameworks, libraries, software and resources
+        related to the Gnoland blockchain.
+      </p>
+      <p class="header__subdescription">
+        Gnoland is a robust blockchain that provides concurrency and scalability
+        with smart contracts programmed in Gno, a Go interpreter.
+      </p>
+    </div>
+
+    <div class="main">
+      <div class="main__sidebar">
+        <nav aria-label="Sidebar" class="sidebar">
+          <ul class="sidebar__list">
+            
+            <li class="sidebar__item">
+              <a class="sidebar__link" href="#official" aria-current="page">
+                <span class="sidebar__title">Official</span>
+                <span class="sidebar__count">6</span>
+              </a>
+            </li>
+            
+            <li class="sidebar__item">
+              <a class="sidebar__link" href="#documentation" aria-current="page">
+                <span class="sidebar__title">Documentation</span>
+                <span class="sidebar__count">4</span>
+              </a>
+            </li>
+            
+            <li class="sidebar__item">
+              <a class="sidebar__link" href="#tools" aria-current="page">
+                <span class="sidebar__title">Tools</span>
+                <span class="sidebar__count">4</span>
+              </a>
+            </li>
+            
+            <li class="sidebar__item">
+              <a class="sidebar__link" href="#tutorials" aria-current="page">
+                <span class="sidebar__title">Tutorials</span>
+                <span class="sidebar__count">7</span>
+              </a>
+            </li>
+            
+            <li class="sidebar__item">
+              <a class="sidebar__link" href="#social" aria-current="page">
+                <span class="sidebar__title">Social</span>
+                <span class="sidebar__count">5</span>
+              </a>
+            </li>
+            
+            <li class="sidebar__item">
+              <a class="sidebar__link" href="#misc" aria-current="page">
+                <span class="sidebar__title">Misc</span>
+                <span class="sidebar__count">5</span>
+              </a>
+            </li>
+            
+            <li class="sidebar__item">
+              <a class="sidebar__link" href="#tips--snippets" aria-current="page">
+                <span class="sidebar__title">Tips &amp; Snippets</span>
+                <span class="sidebar__count">0</span>
+              </a>
+            </li>
+            
+          </ul>
+        </nav>
+      </div>
+      <div class="main__content">
+        
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title" id="official">Official</h2>
+            
+          </div>
+          <ul class="section__list">
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://gno.land">gno.land</a>
+                
+              </div>
+              <p class="item__description">The official website of the project.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/gnolang/gno">gno</a>
+                
+              </div>
+              <p class="item__description">Main repo of the project, contains the core libraries and tools.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://staging.gno.land">staging.gno.land</a>
+                
+              </div>
+              <p class="item__description">Staging environment, resetted perdiodically.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://test1.gno.land">test1.gno.land</a>
+                
+              </div>
+              <p class="item__description">First official testnet environment (archive).</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://test2.gno.land">test2.gno.land</a>
+                
+              </div>
+              <p class="item__description">Second official testnet environment (archive).</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://test3.gno.land">test3.gno.land</a>
+                
+              </div>
+              <p class="item__description">Third official testnet environment.</p>
+            </li>
+            
+          </ul>
+        </div>
+        
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title" id="documentation">Documentation</h2>
+            
+          </div>
+          <ul class="section__list">
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/gnolang/gno#readme">README</a>
+                
+              </div>
+              <p class="item__description"></p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/gnolang/gno/blob/master/ROADMAP.md">Roadmap</a>
+                
+              </div>
+              <p class="item__description"></p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/gnolang/gno/blob/master/PLAN.md">Plan</a>
+                
+              </div>
+              <p class="item__description"></p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/gnolang/gno/blob/master/PHILOSOPHY.md">Philosophy</a>
+                
+              </div>
+              <p class="item__description"></p>
+            </li>
+            
+          </ul>
+        </div>
+        
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title" id="tools">Tools</h2>
+            
+            <p class="section__description"> </p>
+            
+          </div>
+          <ul class="section__list">
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/PoCInnovation/PoCLab">Gno to Discord</a>
+                
+              </div>
+              <p class="item__description">Send notifications on Discord for new content on https://gno.land/r/boards.</p>
+            </li>
+            
+            <li
+              class="section__item section__item--staffpick"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://adena.app/">Adena Wallet</a>
+                <img
+                  class="item__badge"
+                  src="img/staffpick.png"
+                  alt="Gno Staff Pick"
+                />
+              </div>
+              <p class="item__description">Friendly wallet that simplifies sending &amp; receiving tokens, staking, NFT storage, and dapp connections.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/gnolang/gno/pull/154">Keplr Integration</a>
+                
+              </div>
+              <p class="item__description">WIP Integration with the Keplr browser extension.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="http://gnoscan.io/">Gnoscan</a>
+                
+              </div>
+              <p class="item__description">Gnoscan is a Gnoland blockchain explorer, making on-chain data legible and intuitive for everyone.</p>
+            </li>
+            
+          </ul>
+        </div>
+        
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title" id="tutorials">Tutorials</h2>
+            
+            <p class="section__description"> </p>
+            
+          </div>
+          <ul class="section__list">
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://test2.gno.land/r/boards:testboard/5">Quickstart Guide</a>
+                
+              </div>
+              <p class="item__description">How to start interacting with the blockchain.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4">A Beginner’s Guide to the Gnoland Testnet</a>
+                
+              </div>
+              <p class="item__description">A visual guide to creating a wallet and receiving $GNOTs on the testnet.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/onbloc/gnolang-101">Gnolang 101</a>
+                
+              </div>
+              <p class="item__description">A course designed for aspiring smart-contract developers on Gnoland.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/moul/gno-basics">Gnolang Basics</a>
+                
+              </div>
+              <p class="item__description">Simple examples of Gnolang contracts.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/xplrz/gnoland-workshop">Hello Gno!</a>
+                
+              </div>
+              <p class="item__description">Step by step workshop to learn Gnolang and Gnoland features.</p>
+            </li>
+            
+            <li
+              class="section__item section__item--staffpick"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/onbloc/gnoland-tutorials">Gnoland Developer Portal</a>
+                <img
+                  class="item__badge"
+                  src="img/staffpick.png"
+                  alt="Gno Staff Pick"
+                />
+              </div>
+              <p class="item__description">All-in-one place for Gnoland developers, providing introductions, tutorials with detailed examples, and developer resources.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://www.youtube.com/watch?v=-BlnEXCs0eI">Gno Smart Contract Demo</a>
+                
+              </div>
+              <p class="item__description">A short video tutorial on writing and deploying a simple Realm and Package.</p>
+            </li>
+            
+          </ul>
+        </div>
+        
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title" id="social">Social</h2>
+            
+          </div>
+          <ul class="section__list">
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://discord.gg/3YbdqVP8Tb">Discord</a>
+                
+              </div>
+              <p class="item__description">Official Discord server for Gnoland community.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://t.me/gnoland">Telegram</a>
+                
+              </div>
+              <p class="item__description">Official Telegram group for Gnoland community.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://twitter.com/_gnoland">Twitter</a>
+                
+              </div>
+              <p class="item__description">Official Twitter account for Gnoland.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://www.youtube.com/@_gnoland">YouTube</a>
+                
+              </div>
+              <p class="item__description">Official YouTube channel for Gnoland.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://gno.land/r/boards">Gnoland Boards</a>
+                
+              </div>
+              <p class="item__description">Official forum for Gnoland community.</p>
+            </li>
+            
+          </ul>
+        </div>
+        
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title" id="misc">Misc</h2>
+            
+            <p class="section__description"> </p>
+            
+          </div>
+          <ul class="section__list">
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/gnolang/bounties">Bounties</a>
+                
+              </div>
+              <p class="item__description">Legacy official bounty board.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/gnolang/gno/tree/master/gnoland/assets">Assets</a>
+                
+              </div>
+              <p class="item__description">Official logo and assets.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/gnolang/gno/blob/master/gnoland/docs/peace.md">Peace</a>
+                
+              </div>
+              <p class="item__description">Call for peace.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://www.gitpoap.io/gh/gnolang">GitPOAP</a>
+                
+              </div>
+              <p class="item__description">Contributors (Git) can mint POAPs.</p>
+            </li>
+            
+            <li
+              class="section__item"
+            >
+              <div class="item__title">
+                <a class="item__link" href="https://github.com/gnolang/workshops">Workshops &amp; Talks</a>
+                
+              </div>
+              <p class="item__description">Slides and materials.</p>
+            </li>
+            
+          </ul>
+        </div>
+        
+        <div class="section">
+          <div class="section__header">
+            <h2 class="section__title" id="tips--snippets">Tips &amp; Snippets</h2>
+            
+            <p class="section__description">Note: We&#39;d like to try a section with small tips &amp; snippets and less curation. Please open PRs with just a link to a gist, tweet, screenshot, discussion.</p>
+            
+          </div>
+          <ul class="section__list">
+            
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+  </body>
+</html>
