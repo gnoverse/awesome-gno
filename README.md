@@ -43,6 +43,7 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 * [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
 * [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
 * [Gnoscan](http://gnoscan.io/) - Gnoscan is a Gnoland blockchain explorer, making on-chain data legible and intuitive for everyone.
+* [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Rich Gno/Gnolang support for Visual Studio Code.
 
 ## Tutorials
 
