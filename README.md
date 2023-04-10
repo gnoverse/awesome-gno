@@ -77,7 +77,7 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 
 _Note: We'd like to try a section with small tips & snippets and less curation. Please open PRs with just a link to a gist, tweet, screenshot, discussion._
 
-* ...
+* [Tendermint2 JSON-RPC Postman Collection](https://gist.github.com/zivkovicmilos/d7b98103f0611ac3b26202a29cee02c4)
 
 ## Contributing
 
