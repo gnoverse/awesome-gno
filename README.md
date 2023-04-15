@@ -57,6 +57,10 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 * [Gno Smart Contract Demo](https://www.youtube.com/watch?v=-BlnEXCs0eI) - A short video tutorial on writing and deploying a simple Realm and Package.
 * [Gno Chinese Station](https://www.gnoland.cn) - A website for Chinese Developers, providing tutorials, documents, and gno news.
 
+## SDKs & Clients
+
+* [gnolang/blog](https://github.com/gnolang/blog) - `r/gnolang/blog` client, or how to create custom `gnokey` clients.
+
 ## Social
 
 * [Discord](https://discord.gg/3YbdqVP8Tb)
