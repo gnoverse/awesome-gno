@@ -41,7 +41,6 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 
 * [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/boards.
 * [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
-* [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
 * [Gnoscan](http://gnoscan.io/) - Gnoscan is a Gnoland blockchain explorer, making on-chain data legible and intuitive for everyone.
 * [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Rich Gno/Gnolang support for Visual Studio Code.
 * [Supernova](https://github.com/gnolang/supernova) - Stress testing tool for the Gno Tendermint2 blockchain.
@@ -53,6 +52,7 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 * [Gnolang 101](https://github.com/onbloc/gnolang-101) - A course designed for aspiring smart-contract developers on Gnoland.
 * [Gnolang Basics](https://github.com/moul/gno-basics) - Simple examples of Gnolang contracts.
 * [Hello Gno!](https://github.com/xplrz/gnoland-workshop) - Step by step workshop to learn Gnolang and Gnoland features.
+* [Start Writing a Realm](https://docs.onbloc.xyz/tutorials/start-writing-a-realm)
 * [Gnoland Developer Portal](https://github.com/onbloc/gnoland-tutorials) - All-in-one place for Gnoland developers, providing introductions, tutorials with detailed examples, and developer resources.
 * [Gno Smart Contract Demo](https://www.youtube.com/watch?v=-BlnEXCs0eI) - A short video tutorial on writing and deploying a simple Realm and Package.
 * [Gno Chinese Station](https://www.gnoland.cn) - A website for Chinese Developers, providing tutorials, documents, and gno news.
