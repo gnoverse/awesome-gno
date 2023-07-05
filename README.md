@@ -60,6 +60,7 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 * [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
 * [Setup & First Realm On Ubuntu](https://proggr.hashnode.dev/gnoland-localnet-walkthrough-first-realm-on-ubuntu) - Local installation & realm deployment on Ubuntu.
 * [From Test3 To Main Branch](https://proggr.hashnode.dev/gnoland-from-main-branch-refactor-from-test3-toy-registrar-realm) - Capturing the minor adjustments needed as part of the refactor since test3.
+* ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl.
 
 ## SDKs & Clients
 
