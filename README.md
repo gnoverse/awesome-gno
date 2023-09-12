@@ -56,7 +56,8 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 * [A Beginner’s Guide to the Gnoland Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the testnet.
 * [Gnolang 101](https://github.com/onbloc/gnolang-101) - A course designed for aspiring smart-contract developers on Gnoland.
 * [Gnolang Basics](https://github.com/moul/gno-basics) - Simple examples of Gnolang contracts.
-* [Hello Gno!](https://github.com/xplrz/gnoland-workshop) - Step by step workshop to learn Gnolang and Gnoland features.
+* [Hello Gno!](https://github.com/xplrz/gnoland-workshop) - Step-by-step workshop to learn Gnolang and Gnoland features.
+* [Start Writing a Realm](https://docs.onbloc.xyz/tutorials/start-writing-a-realm)
 * [Gnoland Developer Portal](https://github.com/onbloc/gnoland-tutorials) - All-in-one place for Gnoland developers, providing introductions, tutorials with detailed examples, and developer resources.
 * [Gno Smart Contract Demo](https://www.youtube.com/watch?v=-BlnEXCs0eI) - A short video tutorial on writing and deploying a simple Realm and Package.
 * [Gno Chinese Station](https://www.gnoland.cn) - A website for Chinese Developers, providing tutorials, documents, and gno news.
@@ -87,7 +88,7 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 
 ## Tips & Snippets
 
-_Note: We'd like to try a section with small tips & snippets and less curation. Please open PRs with just a link to a gist, tweet, screenshot, discussion._
+_Note: We'd like to try a section with small tips & snippets and less curation. Please open PRs with just a link to a gist, tweet, screenshot, or discussion._
 
 * [Tendermint2 JSON-RPC Postman Collection](https://gist.github.com/zivkovicmilos/d7b98103f0611ac3b26202a29cee02c4)
 
