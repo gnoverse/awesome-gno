@@ -9,7 +9,7 @@ A curated list of awesome frameworks, libraries, software and resources related 
 Gnoland is a robust blockchain that provides concurrency and scalability with smart contracts programmed in Gno, a Go interpreter.
 
 > Do you gno?
- 
+
 ## Contents
 
 1. [Official](#official)
@@ -66,6 +66,7 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 * [Setup & First Realm On Ubuntu](https://proggr.hashnode.dev/gnoland-localnet-walkthrough-first-realm-on-ubuntu) - Local installation & realm deployment on Ubuntu.
 * [From Test3 To Main Branch](https://proggr.hashnode.dev/gnoland-from-main-branch-refactor-from-test3-toy-registrar-realm) - Capturing the minor adjustments needed as part of the refactor since test3.
 * ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl.
+* [GnoChess](https://github.com/gnolang/gnochess) - A chess server implementation in Gno, complete with a frontend, faucet & tutorial to develop your own.
 
 ## SDKs & Clients
 
