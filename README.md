@@ -50,10 +50,12 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 
 ## Tutorials
 
+
+
 * [Getting Started](https://github.com/gnolang/getting-started) - Get started with your first Gnolang Realm easily with this repo.
 * [Gno By Example](https://gno-by-example.com) - Tutorials and code snippets for learning Gnolang.
 * [Quickstart Guide](https://github.com/gnolang/gno/blob/master/examples/gno.land/r/demo/boards/README.md) - How to start interacting with the blockchain.
-* [From Zero to Gnoland Hero](https://github.com/leohhhn/gnoland_zero_to_hero/blob/main/examples/whitelist/tutorial.md) - A complete 0 to 100 tutorial on your first dApp in Gnoland.
+* [From Zero to Gnoland Hero](https://github.com/leohhhn/gno/blob/from_zero_to_gnoland_hero/examples/gno.land/whitelist/tutorial.md) - A complete 0 to 100 tutorial on your first dApp in Gnoland.
 * [A Beginner’s Guide to the Gnoland Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the testnet.
 * [Gnolang 101](https://github.com/onbloc/gnolang-101) - A course designed for aspiring smart-contract developers on Gnoland.
 * [Gnolang Basics](https://github.com/moul/gno-basics) - Simple examples of Gnolang contracts.
