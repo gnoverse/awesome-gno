@@ -17,5 +17,5 @@ This is something still in development, but one of the main ideas is to have sev
 
 ### What is the difference between other smart contract solutions, like solidity?
 
-- Gno code is interpreted, so all the code is open source and easy to read directly from the blockchain.
+- Gno code is interpreted directly from the source code. This is a deliberate decision, with the purpose to essentially enforce on the initial Gno.land chain and those that come after it to only be able to use the source code directly to execute the code. This is furthermore enforced by the license that will apply on our code, the [Gno Network Public License](link), a derivative of the GNU Afferro General Public License.
 - Gno is almost identical to Go, so if you are a Go developer, you can have your first smart contract deployed in no time compared with other languages.
