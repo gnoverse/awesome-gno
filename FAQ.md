@@ -9,7 +9,7 @@ Go, apart from being a super simple and easy-to-learn language, it has some nice
 
 ### How are we going to manage the blockchain size?
 
-This is something still in development, but one of the main ideas is to have several blockchains talking with each other through IBC protocol. 
+This is something still in development, but one of the main ideas is to have several blockchains talking with each other through IBC protocol. Gno.land is intended to be a primary hub for the development of the ecosystem of the Gno programming language; similar to what GitHub is for the open source world. We expect many other chains to depend on the code developed on Gno.land, and as such tailoring Gno.land to fit every use-case is a non-goal.
 
 ### How is the company behind gno.land planning to make money?
 
