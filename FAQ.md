@@ -23,7 +23,7 @@ hub for developing the Gno programming language ecosystem, much like GitHub is
 for the open-source world. We anticipate many other chains will rely on the code
 developed on Gno.land, so we're not aiming to make Gno.land fit every use-case. 
 
-### How does the company behind Gno.land (AiB) plan to make money?
+### How does the company behind Gno.land plan to make money?
 
 The company or its members will own 10% of Genesis tokens. This will motivate us
 to continue developing and enhancing the ecosystem, increasing its value for
