@@ -48,7 +48,7 @@ Gnoland is a robust blockchain that provides concurrency and scalability with sm
 * [Supernova](https://github.com/gnolang/supernova) - Stress testing tool for the Gno Tendermint2 blockchain.
 * [Gno-mode for Emacs](https://gist.github.com/gfanton/6e233656dfeabd7a46f21f7507b6b311) - Major mode for editing GNO files in Emacs, based on go-mode. Work in progress.
 * [Gno for Sublime Text](https://github.com/jdkato/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
-* [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/6e233656dfeabd7a46f21f7507b6b311) - `:GnoFileTest` snippet for vim
+* [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - `:GnoFileTest` snippet for vim
 
 ## Tutorials
 
