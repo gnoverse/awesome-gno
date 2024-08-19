@@ -1,7 +1,6 @@
-
-	
-![image](https://github.com/user-attachments/assets/8036c3b9-38d6-4df4-8096-6c36079a8880)
-
+<div align="center">
+	<img src="./banner.png" />
+</div>
 
 # Awesome Gno [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
