@@ -56,8 +56,9 @@ add new content, update outdated content, or propose other ideas._
 
 - [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
 - [gnodev](https://github.com/gnolang/gno/tree/master/contribs/gnodev) - Your Gno development companion, used for Gno development locally.
+- [Gno Debugger](https://gno.land/r/gnoland/blog:p/gno-debugger) - A debugger that comes packaged with the GnoVM.
 - [Gno Playground](https://play.gno.land/) - An online Gno editor that allows for quick testing, deploying, and sharing of Gno code, modeled after the Go Playground.
-- [Gnoscan](http://gnoscan.io/) - Gnoscan, a gno.land blockchain explorer, making on-chain data legible and intuitive for everyone.
+- [GnoScan](http://gnoscan.io/) - Gnoscan, a gno.land blockchain explorer, making on-chain data legible and intuitive for everyone.
 - [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Rich Gno support for Visual Studio Code.
 - [tx-indexer](https://github.com/gnolang/tx-indexer) - A TM2 blockchain indexer with GraphQL support.
 - [Supernova](https://github.com/gnolang/supernova) - Stress testing tool for the Gno Tendermint2 blockchain.
