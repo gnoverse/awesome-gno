@@ -50,6 +50,9 @@ add new content, update outdated content, or propose other ideas._
 - [GnoStudio Connect](https://gno.studio/connect) - A tool that makes interaction with Gno applications simple.
 - [GnoChess](https://github.com/gnolang/gnochess) - A chess server implementation in Gno, complete with a frontend, faucet & tutorial to develop your own.
 - [Memeland](https://github.com/gnolang/memeland) - An image sharing application built using Gno, React and Vue.
+
+## Community Apps
+
 - [Gnoswap](https://github.com/gnoswap-labs/gnoswap) - the first DEX built on gno.land (currently in beta).
 
 ## Tools
