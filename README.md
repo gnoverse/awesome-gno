@@ -52,6 +52,7 @@ _Apps developed by the gno.land team._
 - [Gno Playground](https://play.gno.land/) - An online Gno editor that allows for quick testing, deploying, and sharing of Gno code, modeled after the Go Playground.
 - [GnoChess](https://github.com/gnolang/gnochess) - A chess server implementation in Gno, complete with a frontend, faucet & tutorial to develop your own.
 - [Memeland](https://github.com/gnolang/memeland) - An image sharing application built using Gno, React and Vue.
+- [Gno Faucet Hub](https://faucet.gno.land) - A central place for all gno.land faucets.
 
 ## Community Apps
 
