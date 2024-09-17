@@ -38,33 +38,36 @@ add new content, update outdated content, or propose other ideas._
 
 ## gno.land Networks
 
+_The currently active gno.land networks._
+
 - [The Portal Loop](https://gno.land/) - A rolling testnet, serving as the gno.land homepage. Read more [here](https://docs.gno.land/concepts/portal-loop).
 - [test4.gno.land](https://test4.gno.land/) - Latest official multi-node stable testnet environment, released in July 2024.
-- [test3.gno.land](https://test3.gno.land/) - Third official testnet environment (archive).
-- [test2.gno.land](https://test2.gno.land/) - Second official testnet environment (archive).
-- [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
 - [staging.gno.land](https://staging.gno.land/) - Staging environment, reset periodically.
 
 ## Apps
 
+_Apps developed by the gno.land team._
+
 - [GnoStudio Connect](https://gno.studio/connect) - A tool that makes interaction with Gno applications simple.
+- [Gno Playground](https://play.gno.land/) - An online Gno editor that allows for quick testing, deploying, and sharing of Gno code, modeled after the Go Playground.
 - [GnoChess](https://github.com/gnolang/gnochess) - A chess server implementation in Gno, complete with a frontend, faucet & tutorial to develop your own.
 - [Memeland](https://github.com/gnolang/memeland) - An image sharing application built using Gno, React and Vue.
 
 ## Community Apps
 
+_Apps developed by the gno.land community._
+
 - [Gnoswap](https://github.com/gnoswap-labs/gnoswap) - the first DEX built on gno.land (currently in beta).
+- [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
 
 ## Tools
 
-- [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
 - [gnodev](https://github.com/gnolang/gno/tree/master/contribs/gnodev) - Your Gno development companion, used for Gno development locally.
 - [Gno Debugger](https://gno.land/r/gnoland/blog:p/gno-debugger) - A debugger that comes packaged with the GnoVM.
-- [Gno Playground](https://play.gno.land/) - An online Gno editor that allows for quick testing, deploying, and sharing of Gno code, modeled after the Go Playground.
 - [GnoScan](http://gnoscan.io/) - Gnoscan, a gno.land blockchain explorer, making on-chain data legible and intuitive for everyone.
-- [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Rich Gno support for Visual Studio Code.
 - [tx-indexer](https://github.com/gnolang/tx-indexer) - A TM2 blockchain indexer with GraphQL support.
 - [Supernova](https://github.com/gnolang/supernova) - Stress testing tool for the Gno Tendermint2 blockchain.
+- [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Rich Gno support for Visual Studio Code.
 - [Gno-mode for Emacs](https://gist.github.com/gfanton/6e233656dfeabd7a46f21f7507b6b311) - Major mode for editing GNO files in Emacs, based on go-mode. Work in progress.
 - [Gno for Sublime Text](https://github.com/jdkato/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - `:GnoFileTest` snippet for vim
@@ -73,6 +76,7 @@ add new content, update outdated content, or propose other ideas._
 
 - [Gno By Example](https://gno-by-example.com) - Tutorials and code snippets for learning Gno.
 - [Getting Started](https://github.com/gnolang/getting-started) - Get started with your first Gno Realm easily with this repo.
+- [A gentle introduction to gno.land](https://www.youtube.com/watch?v=hTGeG0z09NU&t=135s) - An intro presentation into gno.land (2024).
 - [Gno Learn X in Y minutes](https://github.com/gnolang/devrel/blob/main/docs/learn_xy/gno.html.markdown)
 - [From Zero to gno.land Hero](https://github.com/leohhhn/gno-fzgh/blob/main/README.md) - A complete 0 to 100 tutorial on your first dApp in gno.land.
 - [A Beginner’s Guide to the gno.land Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the testnet.
@@ -123,3 +127,6 @@ We will keep some pull requests open if we're not sure whether those libraries a
 
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
 - [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/boards.
+- [test3.gno.land](https://test3.gno.land/) - Third official testnet environment (archive).
+- [test2.gno.land](https://test2.gno.land/) - Second official testnet environment (archive).
+- [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
