@@ -55,6 +55,7 @@ add new content, update outdated content, or propose other ideas._
 ## Tools
 
 - [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
+- [gnodev](https://github.com/gnolang/gno/tree/master/contribs/gnodev) - Your Gno development companion, used for Gno development locally.
 - [Gno Playground](https://play.gno.land/) - An online Gno editor that allows for quick testing, deploying, and sharing of Gno code, modeled after the Go Playground.
 - [Gnoscan](http://gnoscan.io/) - Gnoscan, a gno.land blockchain explorer, making on-chain data legible and intuitive for everyone.
 - [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Rich Gno support for Visual Studio Code.
