@@ -6,7 +6,7 @@
 
 > Do you gno?
 
-This is the place where awesome apps, frameworks, libraries, software and resources
+This repository is a hub for apps, frameworks, libraries, and resources.
 related to Gno & gno.land converge. The purpose of this repository is two-fold:
 1. Firstly, it is a place for newcomers to see what is happening in gno.land, 
 get inspiration and learn about how to become good contributors to gno.land.
