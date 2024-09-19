@@ -116,7 +116,7 @@ _Apps developed by the gno.land community._
 _Note: We'd like to try a section with small tips & snippets and less curation. Please open PRs with just a link to a gist, tweet, screenshot, or discussion._
 
 - [Tendermint2 JSON-RPC Postman Collection](https://gist.github.com/zivkovicmilos/d7b98103f0611ac3b26202a29cee02c4)
-- Goland IDE Intellisense Workaround - Developing in the Gno monorepo can provide Gno Intellisense using the builtin Go language support.
+- [Goland IDE Intellisense Workaround](https://x.com/leohhhn/status/1836740567541367157) - Developing in the Gno monorepo can provide Gno Intellisense using the builtin Go language support.
 
 ## Contributing
 
