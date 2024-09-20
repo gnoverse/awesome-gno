@@ -79,7 +79,7 @@ _Tools useful for developing in Gno._
 _Resources to help you understand how to get around gno.land and use Gno._
 
 - [Gno By Example](https://gno-by-example.com) - Interactive tutorials and code snippets for learning Gno through real-time examples.
-- [Getting Started](https://github.com/gnolang/getting-started) - Get started with your first Gno Realm easily with this repo.
+- [Getting Started](https://github.com/gnolang/getting-started) - A repo to help you get started with building realms in Gno.
 - [A gentle introduction to gno.land](https://www.youtube.com/watch?v=hTGeG0z09NU&t=135s) - An intro presentation into gno.land (2024).
 - [From Zero to gno.land Hero](https://github.com/leohhhn/gno-fzgh/blob/main/README.md) - A complete 0 to 1 tutorial on building your first dApp in gno.land.
 - [A Beginner’s Guide to the gno.land Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the testnet.
