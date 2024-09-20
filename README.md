@@ -81,7 +81,6 @@ _Apps developed by the gno.land community._
 - [A Beginner’s Guide to the gno.land Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the testnet.
 - [Gno 101](https://github.com/onbloc/gnolang-101) - A course designed for aspiring smart-contract developers on gno.land.
 - [Gno Basics](https://github.com/moul/gno-basics) - Simple and common examples of Gno realms.
-- [Hello Gno!](https://github.com/xplrz/gnoland-workshop) - A step-by-step workshop on Gno and gno.land's main features.
 - [Gno Smart Contract Demo](https://www.youtube.com/watch?v=-BlnEXCs0eI) - A short video tutorial on writing and deploying a simple Realm and Package.
 - [Gno Chinese Station](https://www.gnoland.cn) - A website for Chinese developers, providing tutorials, resources, and Gno news.
 - [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
@@ -124,8 +123,11 @@ We will keep some pull requests open if we're not sure whether those libraries a
 
 ## Archive
 
+_Older, outdated, or archived items._ 
+
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
 - [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/boards.
 - [test3.gno.land](https://test3.gno.land/) - Third official testnet environment (archive).
 - [test2.gno.land](https://test2.gno.land/) - Second official testnet environment (archive).
 - [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
+- [Hello Gno!](https://github.com/xplrz/gnoland-workshop) - A step-by-step workshop on Gno and gno.land's main features.
