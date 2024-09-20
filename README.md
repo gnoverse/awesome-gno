@@ -15,7 +15,7 @@ get inspiration and learn about how to become good contributors to gno.land.
   > All are welcome to submit PRs, which will be reviewed and merged if they add value to the resource list.
 and merged if they benefit the resource list.
 
-_Some things in this repository might be outdated. We welcome any PRs that will
+_We update this repo periodically. We welcome any PRs that will
 add new content, update outdated content, or propose other ideas._ 
 
 ## Contents
