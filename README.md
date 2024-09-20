@@ -31,6 +31,7 @@ add new content, update outdated content, or propose other ideas._
 - [gno.land](https://gno.land/) - The official website of gno.land.
 - [gno monorepo](https://github.com/gnolang/gno) - The official core repo of the project, containing the core libraries, tools, and example Gno code.
 - [docs.gno.land](https://docs.gno.land) - The official docs of gno.land.
+- [gno.land events calendar](https://gno.link/calendar) - The official gno.land Google calendar.
 - [Plan](https://github.com/gnolang/gno/blob/master/PLAN.md) - The foundational plan for gno.land.
 - [Philosophy](https://github.com/gnolang/gno/blob/master/PHILOSOPHY.md) - The fundamental philosophies of gno.land.
 
@@ -61,6 +62,8 @@ _Apps developed by the gno.land community._
 
 ## Tools
 
+_Tools useful for developing in Gno._
+
 - [gnodev](https://github.com/gnolang/gno/tree/master/contribs/gnodev) - Your Gno development companion, used for local Gno development.
 - [Gno Debugger](https://gno.land/r/gnoland/blog:p/gno-debugger) - A debugger that comes packaged with the GnoVM.
 - [GnoScan](http://gnoscan.io/) - A gno.land blockchain explorer, making on-chain data legible and intuitive for everyone.
@@ -71,12 +74,13 @@ _Apps developed by the gno.land community._
 - [Gno for Sublime Text](https://github.com/jdkato/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - `:GnoFileTest` snippet for vim
 
-## Tutorials
+## Tutorials, Presentations, Resources
+
+_Resources to help you understand how to get around gno.land and use Gno._
 
 - [Gno By Example](https://gno-by-example.com) - Interactive tutorials and code snippets for learning Gno through real-time examples.
 - [Getting Started](https://github.com/gnolang/getting-started) - Get started with your first Gno Realm easily with this repo.
 - [A gentle introduction to gno.land](https://www.youtube.com/watch?v=hTGeG0z09NU&t=135s) - An intro presentation into gno.land (2024).
-- [Gno Learn X in Y minutes](https://github.com/gnolang/devrel/blob/main/docs/learn_xy/gno.html.markdown)
 - [From Zero to gno.land Hero](https://github.com/leohhhn/gno-fzgh/blob/main/README.md) - A complete 0 to 1 tutorial on building your first dApp in gno.land.
 - [A Beginner’s Guide to the gno.land Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the testnet.
 - [Gno 101](https://github.com/onbloc/gnolang-101) - A course designed for aspiring smart-contract developers on gno.land.
@@ -88,6 +92,8 @@ _Apps developed by the gno.land community._
 
 ## SDKs & Clients
 
+_Connecting web2 to the gno.land blockchain._
+
 - [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) - a Gno-Go package, allowing you to connect to gno.land chains via Go programs at will.
 - [gnolang/blog](https://github.com/gnolang/blog/tree/main/cmd/gnoblog-cli) - `r/gnolang/blog` client, or how to create custom `gnokey` clients, using the [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
 - [tm2-js](https://github.com/gnolang/tm2-js) - A TM2 JavaScript client library.
@@ -95,12 +101,16 @@ _Apps developed by the gno.land community._
 
 ## Socials
 
+_gno.land's official socials._
+
 - [Discord](https://discord.gg/3YbdqVP8Tb)
 - [Telegram](https://t.me/gnoland)
 - [X/Twitter](https://x.com/_gnoland)
 - [YouTube](https://www.youtube.com/@_gnoland)
 
 ## Misc
+
+_Miscellaneous._
 
 - [Branding & Assets](https://github.com/gnolang/branding) - Official logo and assets.
 - [Peace](https://gno.land/r/gnoland/blog:p/peace) - A call for peace.
@@ -117,9 +127,11 @@ _Note: We'd like to try a section with small tips & snippets and less curation. 
 
 ## Contributing
 
-Your contributions are always welcome! Please take a look at the [contribution guidelines](https://github.com/gnolang/awesome-gno/blob/master/CONTRIBUTING.md) first.
+Your contributions are always welcome! Please take a look at the 
+[contribution guidelines](https://github.com/gnolang/awesome-gno/blob/master/CONTRIBUTING.md) first.
 
-We will keep some pull requests open if we're not sure whether those libraries are awesome. You could [vote for them](https://github.com/gnolang/awesome-gno/pulls) by adding :+1: to them.
+We will keep some pull requests open if we're not sure whether those libraries 
+are awesome. You could [vote for them](https://github.com/gnolang/awesome-gno/pulls) by adding :+1: to them.
 
 ## Archive
 
