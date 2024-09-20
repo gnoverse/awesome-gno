@@ -12,10 +12,8 @@ related to Gno & gno.land. It serves two main purposes:
 1. It’s a place for newcomers to explore what's happening on gno.land.
 get inspiration and learn about how to become good contributors to gno.land.
 2. It’s a space for everyone to publicly share their [gno.land](https://gno.land) projects.
-  > All are welcome to submit PRs, which will be reviewed and merged if they add value to the resource list.
-and merged if they benefit the resource list.
 
-_We update this repo periodically. We welcome any PRs that will
+> _We update this repo periodically. We welcome any PRs that will
 add new content, update outdated content, or propose other ideas._ 
 
 ## Contents
@@ -68,7 +66,7 @@ _Apps developed by the gno.land community._
 - [GnoScan](http://gnoscan.io/) - A gno.land blockchain explorer, making on-chain data legible and intuitive for everyone.
 - [tx-indexer](https://github.com/gnolang/tx-indexer) - A TM2 blockchain indexer with GraphQL support.
 - [Supernova](https://github.com/gnolang/supernova) - A stress testing tool for the Gno Tendermint2 blockchain.
-- [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Rich Gno support for Visual Studio Code.
+- [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Experimental language support for Gno in VS Code.
 - [Gno-mode for Emacs](https://gist.github.com/gfanton/6e233656dfeabd7a46f21f7507b6b311) - Major mode for editing Gno files in Emacs, based on go-mode. Work in progress.
 - [Gno for Sublime Text](https://github.com/jdkato/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - `:GnoFileTest` snippet for vim
