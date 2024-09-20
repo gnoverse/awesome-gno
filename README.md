@@ -24,7 +24,7 @@ add new content, update outdated content, or propose other ideas._
 2. [gno.land Networks](#gnoland-networks)
 3. [Tools](#tools)
 4. [Tutorials](#tutorials)
-5. [Social](#social)
+5. [Social](#socials)
 6. [Misc](#misc)
 7. [Contributing](#contributing)
 
@@ -48,8 +48,8 @@ _The currently active gno.land networks._
 
 _Apps developed by the gno.land team._
 
-- [Gno Studio Connect](https://gno.studio/connect) - A tool that makes interaction with Gno applications simple.
 - [Gno Playground](https://play.gno.land/) - An online Gno editor that allows for quick testing, deploying, and sharing of Gno code, modeled after the Go Playground.
+- [Gno Studio Connect](https://gno.studio/connect) - A tool that makes interaction with Gno applications simple.
 - [GnoChess](https://github.com/gnolang/gnochess) - A chess server implementation in Gno, complete with a frontend, faucet & tutorial to develop your own.
 - [Memeland](https://github.com/gnolang/memeland) - An image sharing application built using Gno, React and Vue.
 - [Gno Faucet Hub](https://faucet.gno.land) - A central place for all gno.land faucets.
