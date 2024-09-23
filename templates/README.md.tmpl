@@ -6,11 +6,15 @@
 ![{{ .Metadata.Title }}]({{ .Metadata.Banner }})
 {{ end }}
 
+> {{ .Metadata.IntroQuestion }}
+
+{{ .Metadata.IntroText }}
+
 {{ range .Metadata.Purposes }}
 - {{ . }}
 {{ end }}
 
-{{ .Metadata.Notice }}
+> {{ .Metadata.Notice }}
 
 ## Contents
 

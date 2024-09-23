@@ -6,13 +6,17 @@ This repository is a hub for apps, frameworks, libraries, and resources related 
 ![Awesome Gno](./banner.png)
 
 
+> Do you gno?
 
-- It’s a place for newcomers to explore what&#39;s happening on gno.land, get inspiration, and learn how to become contributors.
-
-- It’s a space for everyone to publicly share their gno.land projects.
+This repository is a hub for apps, frameworks, libraries, and resources related to Gno &amp; gno.land. It serves two main purposes:
 
 
-We update this repo periodically. We welcome any PRs that will add new content, update outdated content, or propose other ideas.
+- It&#39;s a place for newcomers to explore what&#39;s happening on gno.land, get inspiration, and learn how to become contributors.
+
+- It&#39;s a space for everyone to publicly share their gno.land projects.
+
+
+> We update this repo periodically. We welcome any PRs that will add new content, update outdated content, or propose other ideas.
 
 ## Contents
 
@@ -143,7 +147,7 @@ The currently active gno.land networks.
 
 - [From Zero to gno.land Hero](https://github.com/leohhhn/gno-fzgh/blob/main/README.md) - A complete tutorial on building your first dApp in Gno.
 
-- [A Beginner’s Guide to the gno.land Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs.
+- [A Beginner&#39;s Guide to the gno.land Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs.
 
 - [Gno 101](https://github.com/onbloc/gnolang-101) - A course designed for aspiring smart-contract developers.
 
@@ -179,13 +183,13 @@ The currently active gno.land networks.
 
 
 
-- [Discord](https://discord.gg/3YbdqVP8Tb) - 
+- [Discord](https://discord.gg/3YbdqVP8Tb) - Official Gno Discord server for community discussions.
 
-- [Telegram](https://t.me/gnoland) - 
+- [Telegram](https://t.me/gnoland) - Official Gno Telegram group for updates and chat.
 
-- [X/Twitter](https://x.com/_gnoland) - 
+- [X/Twitter](https://x.com/_gnoland) - Official Gno Twitter account for news and announcements.
 
-- [YouTube](https://www.youtube.com/@_gnoland) - 
+- [YouTube](https://www.youtube.com/@_gnoland) - Official Gno YouTube channel for videos and tutorials.
 
 
 
@@ -213,9 +217,9 @@ Small tips &amp; snippets with less curation.
 
 
 
-- [Tendermint2 JSON-RPC Postman Collection](https://gist.github.com/zivkovicmilos/d7b98103f0611ac3b26202a29cee02c4) - 
+- [Tendermint2 JSON-RPC Postman Collection](https://gist.github.com/zivkovicmilos/d7b98103f0611ac3b26202a29cee02c4) - A Postman collection for Tendermint2 JSON-RPC endpoints.
 
-- [Goland IDE Intellisense Workaround](https://x.com/leohhhn/status/1836740567541367157) - 
+- [Goland IDE Intellisense Workaround](https://x.com/leohhhn/status/1836740567541367157) - A tip for improving Goland IDE intellisense for Gno development.
 
 
 

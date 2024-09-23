@@ -3,6 +3,8 @@ metadata:
   description: "This repository is a hub for apps, frameworks, libraries, and resources related to Gno & gno.land."
   banner: "./banner.png"
   badge: "https://awesome.re/badge-flat2.svg"
+  intro_question: "Do you gno?"
+  intro_text: "This repository is a hub for apps, frameworks, libraries, and resources related to Gno & gno.land. It serves two main purposes:"
   purposes:
     - "It's a place for newcomers to explore what's happening on gno.land, get inspiration, and learn how to become contributors."
     - "It's a space for everyone to publicly share their gno.land projects."

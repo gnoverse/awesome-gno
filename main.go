@@ -12,12 +12,14 @@ import (
 
 type List struct {
 	Metadata struct {
-		Title       string   `yaml:"title"`
-		Description string   `yaml:"description"`
-		Banner      string   `yaml:"banner"`
-		Badge       string   `yaml:"badge"`
-		Purposes    []string `yaml:"purposes"`
-		Notice      string   `yaml:"notice"`
+		Title         string   `yaml:"title"`
+		Description   string   `yaml:"description"`
+		Banner        string   `yaml:"banner"`
+		Badge         string   `yaml:"badge"`
+		IntroQuestion string   `yaml:"intro_question"`
+		IntroText     string   `yaml:"intro_text"`
+		Purposes      []string `yaml:"purposes"`
+		Notice        string   `yaml:"notice"`
 	} `yaml:"metadata"`
 	Contents []Section `yaml:"contents"`
 }
