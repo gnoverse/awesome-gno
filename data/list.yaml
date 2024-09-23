@@ -4,8 +4,8 @@ metadata:
   banner: "./banner.png"
   badge: "https://awesome.re/badge-flat2.svg"
   purposes:
-    - "It’s a place for newcomers to explore what's happening on gno.land, get inspiration, and learn how to become contributors."
-    - "It’s a space for everyone to publicly share their gno.land projects."
+    - "It's a place for newcomers to explore what's happening on gno.land, get inspiration, and learn how to become contributors."
+    - "It's a space for everyone to publicly share their gno.land projects."
   notice: "We update this repo periodically. We welcome any PRs that will add new content, update outdated content, or propose other ideas."
 
 contents:
@@ -118,7 +118,7 @@ contents:
       - title: "From Zero to gno.land Hero"
         url: "https://github.com/leohhhn/gno-fzgh/blob/main/README.md"
         description: "A complete tutorial on building your first dApp in Gno."
-      - title: "A Beginner’s Guide to the gno.land Testnet"
+      - title: "A Beginner's Guide to the gno.land Testnet"
         url: "https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4"
         description: "A visual guide to creating a wallet and receiving $GNOTs."
       - title: "Gno 101"
@@ -159,12 +159,16 @@ contents:
     items:
       - title: "Discord"
         url: "https://discord.gg/3YbdqVP8Tb"
+        description: "Official Gno Discord server for community discussions."
       - title: "Telegram"
         url: "https://t.me/gnoland"
+        description: "Official Gno Telegram group for updates and chat."
       - title: "X/Twitter"
         url: "https://x.com/_gnoland"
+        description: "Official Gno Twitter account for news and announcements."
       - title: "YouTube"
         url: "https://www.youtube.com/@_gnoland"
+        description: "Official Gno YouTube channel for videos and tutorials."
 
   - section: "Misc"
     items:
@@ -189,8 +193,10 @@ contents:
     items:
       - title: "Tendermint2 JSON-RPC Postman Collection"
         url: "https://gist.github.com/zivkovicmilos/d7b98103f0611ac3b26202a29cee02c4"
+        description: "A Postman collection for Tendermint2 JSON-RPC endpoints."
       - title: "Goland IDE Intellisense Workaround"
         url: "https://x.com/leohhhn/status/1836740567541367157"
+        description: "A tip for improving Goland IDE intellisense for Gno development."
 
 
   - section: "Archive"
