@@ -1,0 +1,36 @@
+# {{ .Metadata.Title }} [![Awesome]({{ .Metadata.Badge }})](https://awesome.re)
+
+{{ .Metadata.Description }}
+
+{{ if .Metadata.Banner }}
+![{{ .Metadata.Title }}]({{ .Metadata.Banner }})
+{{ end }}
+
+{{ range .Metadata.Purposes }}
+- {{ . }}
+{{ end }}
+
+{{ .Metadata.Notice }}
+
+## Contents
+
+{{ range $index, $section := .Contents }}
+{{ add $index 1 }}. [{{ $section.Section }}](#{{ urlize $section.Section }})
+{{ end }}
+
+{{ range .Contents }}
+## {{ .Section }}
+
+{{ if .Description }}
+{{ .Description }}
+{{ end }}
+
+{{ range .Items }}
+- [{{ .Title }}]({{ .URL }}) - {{ .Description }}
+{{ end }}
+
+{{ end }}
+
+## Contributing
+
+Your contributions are always welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
