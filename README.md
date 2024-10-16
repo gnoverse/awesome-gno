@@ -60,6 +60,7 @@ _Apps developed by the gno.land community._
 
 - [Gnoswap](https://github.com/gnoswap-labs/gnoswap) - the first DEX built on gno.land (currently in beta).
 - [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
+- [Image Hunt](https://matijamarjanovic.github.io/ImageHuntGno/) - Simple guessing game that stores the leaderboard on gno chain
 
 ## Tools
 
