@@ -1,91 +1,51 @@
 package main
 
 import (
-	"html/template"
+	"flag"
+	"fmt"
 	"log"
 	"os"
-	"regexp"
-	"strings"
+	"path/filepath"
 
-	"gopkg.in/yaml.v2"
+	"awesome-gno/generators"
+
+	"gopkg.in/yaml.v3"
 )
 
-type List struct {
-	Metadata struct {
-		Title         string   `yaml:"title"`
-		Description   string   `yaml:"description"`
-		Banner        string   `yaml:"banner"`
-		Badge         string   `yaml:"badge"`
-		IntroQuestion string   `yaml:"intro_question"`
-		IntroText     string   `yaml:"intro_text"`
-		Purposes      []string `yaml:"purposes"`
-		Notice        string   `yaml:"notice"`
-	} `yaml:"metadata"`
-	Contents []Section `yaml:"contents"`
-}
-
-type Section struct {
-	Section     string `yaml:"section"`
-	Description string `yaml:"description,omitempty"`
-	Items       []Item `yaml:"items"`
-}
-
-type Item struct {
-	Title       string `yaml:"title"`
-	URL         string `yaml:"url"`
-	Description string `yaml:"description"`
-}
-
-// Custom functions
-func add(a, b int) int {
-	return a + b
-}
-
-func urlize(s string) string {
-	// Transform the string into a URL-friendly anchor
-	// For example, "Official Links" becomes "official-links"
-	s = strings.ToLower(s)
-	s = strings.TrimSpace(s)
-	s = regexp.MustCompile(`[^\w\s-]`).ReplaceAllString(s, "")
-	s = strings.ReplaceAll(s, " ", "-")
-	return s
-}
-
 func main() {
-	// Read YAML file
-	data, err := os.ReadFile("data/list.yaml")
+	inputFile := flag.String("input", "data/list.yaml", "Input YAML file")
+	outputMD := flag.String("md", "output/markdown/README.md", "Output Markdown file")
+	outputHTML := flag.String("html", "output/html/index.html", "Output HTML file")
+	templateDir := flag.String("templates", "templates", "Templates directory")
+	flag.Parse()
+
+	// Ensure output directories exist
+	os.MkdirAll(filepath.Dir(*outputMD), 0755)
+	os.MkdirAll(filepath.Dir(*outputHTML), 0755)
+
+	// Read and parse YAML
+	yamlData, err := os.ReadFile(*inputFile)
 	if err != nil {
-		log.Fatalf("error: %v", err)
+		log.Fatalf("Error reading YAML file: %v", err)
 	}
 
-	var list List
-	err = yaml.Unmarshal(data, &list)
-	if err != nil {
-		log.Fatalf("error: %v", err)
+	var data generators.ListData
+	if err := yaml.Unmarshal(yamlData, &data); err != nil {
+		log.Fatalf("Error parsing YAML: %v", err)
 	}
 
-	// Create a FuncMap with your custom functions
-	funcMap := template.FuncMap{
-		"add":    add,
-		"urlize": urlize,
+	// Generate Markdown
+	mdGen := generators.NewMarkdownGenerator(data)
+	markdown := mdGen.Generate()
+	if err := os.WriteFile(*outputMD, []byte(markdown), 0644); err != nil {
+		log.Fatalf("Error writing Markdown file: %v", err)
 	}
+	fmt.Printf("Generated Markdown: %s\n", *outputMD)
 
-	// Generate README.md
-	readmeTemplate, err := template.New("README.md.tmpl").Funcs(funcMap).ParseFiles("templates/README.md.tmpl")
-	if err != nil {
-		log.Fatalf("error: %v", err)
+	// Generate HTML
+	htmlGen := generators.NewHTMLGenerator(data, *templateDir)
+	if err := htmlGen.Generate(*outputHTML); err != nil {
+		log.Fatalf("Error generating HTML: %v", err)
 	}
-
-	readmeFile, err := os.Create("README.md")
-	if err != nil {
-		log.Fatalf("error: %v", err)
-	}
-	defer readmeFile.Close()
-
-	err = readmeTemplate.Execute(readmeFile, list)
-	if err != nil {
-		log.Fatalf("error: %v", err)
-	}
+	fmt.Printf("Generated HTML: %s\n", *outputHTML)
 }
-
-// Similarly, generate your HTML pages if needed
