@@ -60,7 +60,7 @@
 
         .section-header {
             display: flex;
-            align-items: flex-start;
+            align-items: center;
             gap: 8px;
             margin-bottom: 1.5rem;
             cursor: pointer;
@@ -146,6 +146,22 @@
         .section-header h2 {
             margin: 0;
         }
+
+        .header-content {
+            flex: 1;
+        }
+
+        .header-content h2 {
+            margin: 0;
+            margin-bottom: 0.25rem;
+        }
+
+        .header-content p {
+            margin: 0;
+            color: #666;
+            font-size: 0.95rem;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
@@ -178,10 +194,12 @@
         {{ range .Contents }}
         <section class="section">
             <div class="section-header" onclick="toggleSection(this)">
-                <h2>{{ .Section }}</h2>
-                {{ if .Description }}
-                <p>{{ .Description }}</p>
-                {{ end }}
+                <div class="header-content">
+                    <h2>{{ .Section }}</h2>
+                    {{ if .Description }}
+                    <p>{{ .Description }}</p>
+                    {{ end }}
+                </div>
             </div>
 
             <div class="items-grid">
