@@ -12,12 +12,29 @@ import (
 	"gopkg.in/yaml.v3"
 )
 
+func cleanOutputDir(dirs ...string) error {
+	for _, dir := range dirs {
+		if err := os.RemoveAll(dir); err != nil {
+			return fmt.Errorf("failed to clean directory %s: %v", dir, err)
+		}
+	}
+	return nil
+}
+
 func main() {
 	inputFile := flag.String("input", "data/list.yaml", "Input YAML file")
 	outputMD := flag.String("md", "output/markdown/README.md", "Output Markdown file")
 	outputHTML := flag.String("html", "output/html/index.html", "Output HTML file")
 	templateDir := flag.String("templates", "templates", "Templates directory")
 	flag.Parse()
+
+	// Clean output directories first
+	if err := cleanOutputDir(
+		filepath.Dir(*outputMD),
+		filepath.Dir(*outputHTML),
+	); err != nil {
+		log.Fatalf("Error cleaning output directories: %v", err)
+	}
 
 	// Ensure output directories exist
 	os.MkdirAll(filepath.Dir(*outputMD), 0755)
