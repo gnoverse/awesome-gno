@@ -60,15 +60,34 @@
 
         .section-header {
             display: flex;
-            align-items: center;
-            justify-content: space-between;
+            align-items: flex-start;
+            gap: 8px;
             margin-bottom: 1.5rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .section-header::before {
+            content: '▼';
+            display: inline-block;
+            transition: transform 0.2s;
+            flex-shrink: 0;
+        }
+
+        .section-header.collapsed::before {
+            transform: rotate(-90deg);
         }
 
         .items-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 1.5rem;
+            transition: height 0.3s ease-out;
+            overflow: hidden;
+        }
+
+        .items-grid.collapsed {
+            height: 0 !important;
         }
 
         .item-card {
@@ -123,6 +142,10 @@
             margin-right: 0.5rem;
             margin-bottom: 0.5rem;
         }
+
+        .section-header h2 {
+            margin: 0;
+        }
     </style>
 </head>
 <body>
@@ -154,7 +177,7 @@
     <main class="container">
         {{ range .Contents }}
         <section class="section">
-            <div class="section-header">
+            <div class="section-header" onclick="toggleSection(this)">
                 <h2>{{ .Section }}</h2>
                 {{ if .Description }}
                 <p>{{ .Description }}</p>
@@ -203,6 +226,46 @@
                 const isVisible = title.includes(searchTerm) || description.includes(searchTerm);
                 
                 card.style.display = isVisible ? 'block' : 'none';
+            });
+        });
+
+        function toggleSection(header) {
+            const section = header.parentElement;
+            const grid = section.querySelector('.items-grid');
+            
+            // Store the original height if not already stored
+            if (!grid.dataset.height) {
+                grid.dataset.height = grid.scrollHeight + 'px';
+                grid.style.height = grid.dataset.height;
+            }
+
+            // Toggle collapsed state
+            header.classList.toggle('collapsed');
+            grid.classList.toggle('collapsed');
+            
+            // Set height explicitly for animation
+            if (grid.classList.contains('collapsed')) {
+                grid.style.height = '0';
+            } else {
+                grid.style.height = grid.dataset.height;
+            }
+        }
+
+        // Initialize all sections
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                const grid = section.querySelector('.items-grid');
+                const header = section.querySelector('.section-header');
+                
+                // Store the original height
+                grid.dataset.height = grid.scrollHeight + 'px';
+                grid.style.height = grid.dataset.height;
+                
+                // Collapse the section
+                header.classList.add('collapsed');
+                grid.classList.add('collapsed');
+                grid.style.height = '0';
             });
         });
     </script>
