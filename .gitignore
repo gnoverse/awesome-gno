@@ -3,4 +3,4 @@
 .idea/
 
 # Output directories
-output/
+output/** 
