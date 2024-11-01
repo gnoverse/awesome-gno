@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Metadata.Title }}</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #6d28d9;
+            --secondary-color: #4c1d95;
+            --background-color: #f9fafb;
+            --card-background: #ffffff;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+        }
+
+        .header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .header img.banner {
+            max-width: 800px;
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .stat-card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1rem 2rem;
+            border-radius: 8px;
+            backdrop-filter: blur(10px);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section-header {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 1.5rem;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .section-header::before {
+            content: '▼';
+            display: inline-block;
+            transition: transform 0.2s;
+            flex-shrink: 0;
+        }
+
+        .section-header.collapsed::before {
+            transform: rotate(-90deg);
+        }
+
+        .items-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+            transition: height 0.3s ease-out;
+            overflow: hidden;
+        }
+
+        .items-grid.collapsed {
+            height: 0 !important;
+        }
+
+        .item-card {
+            background: var(--card-background);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            transition: transform 0.2s;
+        }
+
+        .item-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .item-thumbnail {
+            width: 100%;
+            height: 150px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        .item-title {
+            color: var(--primary-color);
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .item-meta {
+            font-size: 0.875rem;
+            color: #666;
+            margin-bottom: 0.5rem;
+        }
+
+        .search-bar {
+            width: 100%;
+            max-width: 600px;
+            margin: 2rem auto;
+            padding: 0.75rem 1.5rem;
+            border-radius: 9999px;
+            border: 2px solid #e5e7eb;
+            font-size: 1rem;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            background: #e5e7eb;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            margin-right: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .section-header h2 {
+            margin: 0;
+        }
+
+        .header-content {
+            flex: 1;
+        }
+
+        .header-content h2 {
+            margin: 0;
+            margin-bottom: 0.25rem;
+        }
+
+        .header-content p {
+            margin: 0;
+            color: #666;
+            font-size: 0.95rem;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img src="{{ .Metadata.Banner }}" alt="Awesome Gno Banner" class="banner">
+        <h1>{{ .Metadata.Title }}</h1>
+        <p>{{ .Metadata.Description }}</p>
+        
+        <div class="stats">
+            <div class="stat-card">
+                <h3>{{ len .Contents }} Sections</h3>
+            </div>
+            <div class="stat-card">
+                <h3>{{ $totalItems := 0 }}
+                    {{- range .Contents -}}
+                        {{- $totalItems = add $totalItems (len .Items) -}}
+                    {{- end -}}
+                    {{ $totalItems }} Resources
+                </h3>
+            </div>
+            <div class="stat-card">
+                <h3>Last Updated: {{ .LastUpdated }}</h3>
+            </div>
+        </div>
+
+        <input type="text" class="search-bar" placeholder="Search resources...">
+    </header>
+
+    <main class="container">
+        {{ range .Contents }}
+        <section class="section">
+            <div class="section-header" onclick="toggleSection(this)">
+                <div class="header-content">
+                    <h2>{{ .Section }}</h2>
+                    {{ if .Description }}
+                    <p>{{ .Description }}</p>
+                    {{ end }}
+                </div>
+            </div>
+
+            <div class="items-grid">
+                {{ range .Items }}
+                <article class="item-card">
+                    <div class="item-thumbnail" style="background-image: url('{{ or .Thumbnail "default-thumbnail.jpg" }}')"></div>
+                    <h3 class="item-title">
+                        <a href="{{ .URL }}" target="_blank">{{ .Title }}</a>
+                    </h3>
+                    <div class="item-meta">
+                        {{ if .Docs }}
+                        <a href="{{ .Docs }}" target="_blank">Documentation</a> ·
+                        {{ end }}
+                        <span>Added: {{ or .Added "Unknown" }}</span>
+                    </div>
+                    <p>{{ .Description }}</p>
+                    {{ if .Tags }}
+                    <div class="tags">
+                        {{ range .Tags }}
+                        <span class="tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </article>
+                {{ end }}
+            </div>
+        </section>
+        {{ end }}
+    </main>
+
+    <script>
+        // Search functionality
+        const searchBar = document.querySelector('.search-bar');
+        const itemCards = document.querySelectorAll('.item-card');
+
+        searchBar.addEventListener('input', (e) => {
+            const searchTerm = e.target.value.toLowerCase();
+
+            itemCards.forEach(card => {
+                const title = card.querySelector('.item-title').textContent.toLowerCase();
+                const description = card.querySelector('p').textContent.toLowerCase();
+                const isVisible = title.includes(searchTerm) || description.includes(searchTerm);
+                
+                card.style.display = isVisible ? 'block' : 'none';
+            });
+        });
+
+        function toggleSection(header) {
+            const section = header.parentElement;
+            const grid = section.querySelector('.items-grid');
+            
+            // Store the original height if not already stored
+            if (!grid.dataset.height) {
+                grid.dataset.height = grid.scrollHeight + 'px';
+                grid.style.height = grid.dataset.height;
+            }
+
+            // Toggle collapsed state
+            header.classList.toggle('collapsed');
+            grid.classList.toggle('collapsed');
+            
+            // Set height explicitly for animation
+            if (grid.classList.contains('collapsed')) {
+                grid.style.height = '0';
+            } else {
+                grid.style.height = grid.dataset.height;
+            }
+        }
+
+        // Initialize all sections
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.section');
+            sections.forEach(section => {
+                const grid = section.querySelector('.items-grid');
+                const header = section.querySelector('.section-header');
+                
+                // Store the original height
+                grid.dataset.height = grid.scrollHeight + 'px';
+                grid.style.height = grid.dataset.height;
+                
+                // Collapse the section
+                header.classList.add('collapsed');
+                grid.classList.add('collapsed');
+                grid.style.height = '0';
+            });
+        });
+    </script>
+</body>
+</html> 
