@@ -74,6 +74,7 @@ _Tools useful for developing in Gno._
 - [Gno-mode for Emacs](https://gist.github.com/gfanton/6e233656dfeabd7a46f21f7507b6b311) - Major mode for editing Gno files in Emacs, based on go-mode. Work in progress.
 - [Gno for Sublime Text](https://github.com/jdkato/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - `:GnoFileTest` snippet for vim
+- [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
 
 ## Tutorials, Presentations, Resources
 
