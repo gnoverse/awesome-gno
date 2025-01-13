@@ -105,7 +105,7 @@ _Connecting web2 to the gno.land blockchain._
 
 _gno.land's official socials._
 
-- [Discord](https://discord.gg/3YbdqVP8Tb)
+- [Discord](https://discord.com/invite/YFtMjWwUN7)
 - [Telegram](https://t.me/gnoland)
 - [X/Twitter](https://x.com/_gnoland)
 - [YouTube](https://www.youtube.com/@_gnoland)
