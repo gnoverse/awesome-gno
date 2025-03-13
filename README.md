@@ -40,8 +40,7 @@ add new content, update outdated content, or propose other ideas._
 _The currently active gno.land networks._
 
 - [The Portal Loop](https://gno.land/) - A rolling testnet, serving as the gno.land homepage. Read more [here](https://docs.gno.land/concepts/portal-loop).
-- [test4.gno.land](https://test4.gno.land/) - The latest stable testnet environment, released in July 2024. Test4 is the first multi-node testnet of gno.land.
-- [staging.gno.land](https://staging.gno.land/) - A staging environment for gno.land which resets periodically.
+- [test5.gno.land](https://test5.gno.land/) - The latest stable testnet environment, released in November 2024.
 
 ## Apps
 
