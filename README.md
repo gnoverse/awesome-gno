@@ -139,7 +139,7 @@ are awesome. You could [vote for them](https://github.com/gnolang/awesome-gno/pu
 _Older, outdated, or archived items._ 
 
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
-- [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/boards.
+- [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/demo/boards.
 - [test3.gno.land](https://test3.gno.land/) - Third official testnet environment (archive).
 - [test2.gno.land](https://test2.gno.land/) - Second official testnet environment (archive).
 - [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
