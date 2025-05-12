@@ -97,7 +97,7 @@ _Connecting web2 to the gno.land blockchain._
 
 - [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) - a Gno-Go package, allowing you to connect to gno.land chains via Go programs at will.
 - [gnolang/blog](https://github.com/gnolang/blog/tree/main/cmd/gnoblog-cli) - `r/gnolang/blog` client, or how to create custom `gnokey` clients, using the [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
-- [tm2-js](https://github.com/gnolang/tm2-js) - A TM2 JavaScript client library.
+- [tm2-js-client](https://github.com/gnolang/tm2-js-client) - A TM2 JavaScript client library.
 - [gno-js-client](https://github.com/gnolang/gno-js-client) - A Gno JavaScript client library, built upon `tm2-js` with additional Gno-specific functionality.
 
 ## Socials
