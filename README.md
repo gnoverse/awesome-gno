@@ -98,7 +98,7 @@ _Connecting web2 to the gno.land blockchain._
 - [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) - a Gno-Go package, allowing you to connect to gno.land chains via Go programs at will.
 - [gnolang/blog](https://github.com/gnolang/blog/tree/main/cmd/gnoblog-cli) - `r/gnolang/blog` client, or how to create custom `gnokey` clients, using the [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
 - [tm2-js](https://github.com/gnolang/tm2-js) - A TM2 JavaScript client library.
-- [gno-js](https://github.com/gnolang/gno-js) - A Gno JavaScript client library, built upon `tm2-js` with additional Gno-specific functionality.
+- [gno-js-client](https://github.com/gnolang/gno-js-client) - A Gno JavaScript client library, built upon `tm2-js` with additional Gno-specific functionality.
 
 ## Socials
 
@@ -139,7 +139,7 @@ are awesome. You could [vote for them](https://github.com/gnolang/awesome-gno/pu
 _Older, outdated, or archived items._ 
 
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
-- [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/boards.
+- [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/demo/boards.
 - [test3.gno.land](https://test3.gno.land/) - Third official testnet environment (archive).
 - [test2.gno.land](https://test2.gno.land/) - Second official testnet environment (archive).
 - [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
