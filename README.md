@@ -20,11 +20,16 @@ add new content, update outdated content, or propose other ideas._
 
 1. [Official Links](#official-links)
 2. [gno.land Networks](#gnoland-networks)
-3. [Tools](#tools)
-4. [Tutorials](#tutorials-presentations-resources)
-5. [Social](#socials)
-6. [Misc](#misc)
-7. [Contributing](#contributing)
+3. [Apps](#apps)
+4. [Community Apps](#community-apps)
+5. [Tools](#tools)
+6. [Tutorials](#tutorials-presentations-resources)
+7. [SDKs & Clients](#sdks--clients)
+8. [Frameworks](#frameworks)
+9. [Social](#socials)
+10. [Misc](#misc)
+11. [Tips & Snippets](#tips--snippets)
+12. [Contributing](#contributing)
 
 ## Official Links
 
@@ -99,6 +104,12 @@ _Connecting web2 to the gno.land blockchain._
 - [gnolang/blog](https://github.com/gnolang/blog/tree/main/cmd/gnoblog-cli) - `r/gnolang/blog` client, or how to create custom `gnokey` clients, using the [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
 - [tm2-js-client](https://github.com/gnolang/tm2-js-client) - A TM2 JavaScript client library.
 - [gno-js-client](https://github.com/gnolang/gno-js-client) - A Gno JavaScript client library, built upon `tm2-js` with additional Gno-specific functionality.
+
+## Frameworks
+
+_Collections of gno packages providing generic functionality which developers can extend with custom code to create applications.
+
+- [daokit](https://github.com/samouraiworld/gnodaokit) - Create DAOs that can mirror real-world organizations.
 
 ## Socials
 
