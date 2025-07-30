@@ -107,7 +107,7 @@ _Connecting web2 to the gno.land blockchain._
 
 ## Frameworks
 
-_Collections of gno packages providing generic functionality which developers can extend with custom code to create applications.
+_Collections of gno packages providing generic functionality which developers can extend with custom code to create applications._
 
 - [daokit](https://github.com/samouraiworld/gnodaokit) - Create DAOs that can mirror real-world organizations.
 
