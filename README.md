@@ -64,6 +64,8 @@ _Apps developed by the gno.land community._
 
 - [Gnoswap](https://github.com/gnoswap-labs/gnoswap) - the first DEX built on gno.land (currently in beta).
 - [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
+- [Gnolove](https://gnolove.world) - Dashboard, leaderboard, and analytics tools for builders in the Gnoland ecosystem.
+- [Zenao](https://zenao.io) - Organize event(s) in seconds.
 
 ## Tools
 
