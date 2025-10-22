@@ -57,6 +57,7 @@ _Apps developed by the gno.land team._
 - [meme.land](https://github.com/gnolang/memeland) - An image sharing application built using Gno, React and Vue.
 - [Gno Faucet Hub](https://faucet.gno.land) - A central place for all gno.land faucets.
 - [Is gno.land down?](https://status.gnoteam.com) - A dashboard showing the status of gno.land services & networks.
+- [OpenOcean](https://github.com/Molaryy/openocean) - OpenSea Clone in Gno.
 
 ## Community Apps
 
