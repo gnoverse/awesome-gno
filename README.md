@@ -82,6 +82,7 @@ _Tools useful for developing in Gno._
 - [Gno for Sublime Text](https://github.com/jdkato/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - `:GnoFileTest` snippet for vim
 - [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
+- [gnAsteroid](https://github.com/gnAsteroid/gnAsteroid) - GNO asteroid creation-kit. **Asteroids** are markdown wikis running on some standalone gnoweb frontend, using gno.land as the remote. A few known asteroids are included below.
 
 ## Tutorials, Presentations, Resources
 
@@ -98,6 +99,8 @@ _Resources to help you understand how to get around gno.land and use Gno._
 - [Gno Chinese Station](https://www.gnoland.cn) - A website for Chinese developers, providing tutorials, resources, and Gno news.
 - [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
 - ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl.
+- [asteroid0](https://gnAsteroid.com) - asteroid zero, it presents the gno asteroid creation-kit.
+- [greps' asteroid](https://greps.gnAsteroid.com) - another asteroid, home to an gno enthusiast.
 
 ## SDKs & Clients
 
