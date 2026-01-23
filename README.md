@@ -8,7 +8,7 @@
 
 A curated list of awesome apps, frameworks, libraries, tools, and resources for [Gno](https://gno.land) — an interpreted, fully deterministic variation of Go for smart contracts.
 
-**What is Gno.land?** Gno.land is an open-source smart contract platform built on Tendermint2 and GnoVM, using the Gno language to create secure, composable, and transparent decentralized applications.
+**What is gno.land?** gno.land is an open-source smart contract platform built on Tendermint2 and GnoVM, using the Gno language to create secure, composable, and transparent decentralized applications.
 
 This repository serves as:
 - A launchpad for newcomers to explore the gno.land ecosystem
