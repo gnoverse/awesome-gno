@@ -45,7 +45,7 @@ add new content, update outdated content, or propose other ideas._
 _The currently active gno.land networks._
 
 - [The Portal Loop](https://gno.land/) - A rolling testnet, serving as the gno.land homepage. Read more [here](https://docs.gno.land/concepts/portal-loop).
-- [test5.gno.land](https://test5.gno.land/) - The latest stable testnet environment, released in November 2024.
+- [test13.testnets.gno.land](https://test13.testnets.gno.land/) - The latest stable testnet environment, released in June 2026.
 
 ## Apps
 
@@ -58,6 +58,7 @@ _Apps developed by the gno.land team._
 - [Gno Faucet Hub](https://faucet.gno.land) - A central place for all gno.land faucets.
 - [Is gno.land down?](https://status.gnoteam.com) - A dashboard showing the status of gno.land services & networks.
 - [OpenOcean](https://github.com/Molaryy/openocean) - OpenSea Clone in Gno.
+- [Gnokey Mobile](https://github.com/gnolang/gnokey-mobile) - Mobile app for managing Gnoland keys and signing dApp transactions, available on Android and iOS.
 
 ## Community Apps
 
@@ -82,6 +83,7 @@ _Tools useful for developing in Gno._
 - [Gno for Sublime Text](https://github.com/jdkato/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - `:GnoFileTest` snippet for vim
 - [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
+- [gnobro](https://github.com/gnolang/gno/tree/master/contribs/gnobro) - A terminal UI for browsing and exploring Gno realms, with real-time gnodev integration via WebSocket.
 
 ## Tutorials, Presentations, Resources
 
@@ -107,6 +109,7 @@ _Connecting web2 to the gno.land blockchain._
 - [gnolang/blog](https://github.com/gnolang/blog/tree/main/cmd/gnoblog-cli) - `r/gnolang/blog` client, or how to create custom `gnokey` clients, using the [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
 - [tm2-js-client](https://github.com/gnolang/tm2-js-client) - A TM2 JavaScript client library.
 - [gno-js-client](https://github.com/gnolang/gno-js-client) - A Gno JavaScript client library, built upon `tm2-js` with additional Gno-specific functionality.
+- [gnonative](https://github.com/gnolang/gnonative) - A framework for building and porting gno.land dApps in your native language, with React Native and Expo support.
 
 ## Frameworks
 
@@ -154,6 +157,7 @@ _Older, outdated, or archived items._
 
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
 - [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/demo/boards.
+- [test5.gno.land](https://test5.gno.land/) - Fifth official testnet environment (archive).
 - [test3.gno.land](https://test3.gno.land/) - Third official testnet environment (archive).
 - [test2.gno.land](https://test2.gno.land/) - Second official testnet environment (archive).
 - [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
