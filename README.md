@@ -99,6 +99,7 @@ _Resources to help you understand how to get around gno.land and use Gno._
 - [Getting Started](https://github.com/gnolang/getting-started) - A repo to help you get started with building realms in Gno.
 - [A gentle introduction to gno.land](https://www.youtube.com/watch?v=hTGeG0z09NU&t=135s) - An intro presentation into gno.land (2024).
 - [gno-contracts](https://github.com/moul/gno-contracts) - A collection of 50+ versioned, self-contained gno.land packages and realms by moul, tested against gno master.
+- [Peer Dev Learning](https://www.youtube.com/playlist?list=PLJZrQikyfMc-kBojXgAojOz4UQPuq4DiY) - A YouTube playlist of gno.land development tutorials by Peer Dev.
 
 ## SDKs & Clients
 
