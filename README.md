@@ -58,6 +58,7 @@ _Apps developed by the gno.land team._
 - [Gno Faucet Hub](https://faucet.gno.land) - A central place for all gno.land faucets.
 - [Is gno.land down?](https://status.gnoteam.com) - A dashboard showing the status of gno.land services & networks.
 - [OpenOcean](https://github.com/Molaryy/openocean) - OpenSea Clone in Gno.
+- [GovDAO Web](https://govdao.gnoteam.com/) - A web UI for viewing and voting on on-chain governance proposals.
 
 ## Community Apps
 
