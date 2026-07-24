@@ -36,6 +36,7 @@ get inspiration and learn about how to become good contributors to gno.land.
 - [gno.land](https://gno.land/) - The official website of gno.land.
 - [gno monorepo](https://github.com/gnolang/gno) - The official core repo of the project, containing the core libraries, tools, and example Gno code.
 - [docs.gno.land](https://docs.gno.land) - The official docs of gno.land.
+- [r/docs](https://staging.gno.land/r/docs/home) - The on-chain documentation realm, with runnable examples rendered directly in gno.land.
 - [gno.land events calendar](https://gno.link/calendar) - The official gno.land Google calendar.
 - [Plan](https://github.com/gnolang/gno/blob/master/PLAN.md) - The foundational plan for gno.land.
 - [Philosophy](https://github.com/gnolang/gno/blob/master/PHILOSOPHY.md) - The fundamental philosophies of gno.land.
