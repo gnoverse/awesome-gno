@@ -68,6 +68,7 @@ _Apps developed by the gno.land community._
 - [Gnolove](https://gnolove.world) - Community leaderboard and contributions analytics for builders of the Gnoland ecosystem.
 - [Zenao](https://zenao.io) - Organize events in seconds then build your resilient community & social organizations.
 - [Gnomputer](https://github.com/moul/gnomputer) - A windowed web workstation for browsing realms, source, and live chain activity.
+- [Game of Life](https://github.com/gnoverse/game-of-life) - A cellular-automaton simulation with an on-chain smart-contract backend.
 
 ## Tools
 
