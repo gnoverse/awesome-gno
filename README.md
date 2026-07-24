@@ -91,6 +91,7 @@ _Tools useful for developing in Gno._
 - [gnobro](https://github.com/gnolang/gno/tree/master/contribs/gnobro) - A terminal UI for browsing and exploring Gno realms, with real-time gnodev integration via WebSocket.
 - [gnovanity](https://github.com/gnoverse/gnovanity) - A command-line tool for generating vanity wallet addresses.
 - [gnockpit](https://github.com/gnoverse/gnockpit) - A real-time web dashboard for monitoring validator node health.
+- [mygnoscan](https://github.com/gnoverse/mygnoscan) - A fast, minimal block explorer with realm dependency graphs and usage tracking.
 
 ## Tutorials, Presentations, Resources
 
