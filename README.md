@@ -87,6 +87,7 @@ _Tools useful for developing in Gno._
 - [gno-mcp](https://github.com/gnoverse/gno-mcp) - An MCP server and agent skill connecting realms to AI coding assistants like Claude, Cursor, and Gemini CLI.
 - [gnobro](https://github.com/gnolang/gno/tree/master/contribs/gnobro) - A terminal UI for browsing and exploring Gno realms, with real-time gnodev integration via WebSocket.
 - [gnovanity](https://github.com/gnoverse/gnovanity) - A command-line tool for generating vanity wallet addresses.
+- [intellij-gno](https://github.com/gnoverse/intellij-gno) - A JetBrains IntelliJ plugin with editor support and syntax highlighting.
 
 ## Tutorials, Presentations, Resources
 
