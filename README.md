@@ -54,8 +54,8 @@ _Apps developed by the gno.land team._
 
 - [Gno Playground](https://play.gno.land/) - An online Gno editor that allows for quick testing, deploying, and sharing of Gno code, modeled after the Go Playground.
 - [Gno Studio Connect](https://gno.studio/connect) - A tool that makes interaction with Gno applications simple.
-- [GnoChess](https://github.com/gnolang/gnochess) - A chess server implementation in Gno, complete with a frontend, faucet & tutorial to develop your own.
-- [meme.land](https://github.com/gnolang/memeland) - An image sharing application built using Gno, React and Vue.
+- [GnoChess](https://github.com/gnoverse/gnochess) - A chess server implementation in Gno, complete with a frontend, faucet & tutorial to develop your own.
+- [meme.land](https://github.com/gnoverse/memeland) - An image sharing application built using Gno, React and Vue.
 - [Gno Faucet Hub](https://faucet.gno.land) - A central place for all gno.land faucets.
 - [Is gno.land down?](https://status.gnoteam.com) - A dashboard showing the status of gno.land services & networks.
 - [OpenOcean](https://github.com/Molaryy/openocean) - OpenSea Clone in Gno.
@@ -77,12 +77,12 @@ _Tools useful for developing in Gno._
 
 - [gnodev](https://github.com/gnolang/gno/tree/master/contribs/gnodev) - Your Gno development companion, used for local Gno development.
 - [Gno Debugger](https://gno.land/r/gnoland/blog:p/gno-debugger) - A debugger that comes packaged with the GnoVM.
-- [GnoScan](http://gnoscan.io/) - A gno.land block explorer, making on-chain data legible and intuitive for everyone.
+- [GnoScan](https://gnoscan.io/) - A gno.land block explorer, making on-chain data legible and intuitive for everyone.
 - [tx-indexer](https://github.com/gnolang/tx-indexer) - A TM2 (Tendermint2) chain indexer with GraphQL support.
 - [Supernova](https://github.com/gnolang/supernova) - A stress testing tool for the Gno Tendermint2 blockchain.
 - [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Experimental language support for Gno in VS Code.
 - [Gno-mode for Emacs](https://gist.github.com/gfanton/6e233656dfeabd7a46f21f7507b6b311) - Major mode for editing Gno files in Emacs, based on go-mode. Work in progress.
-- [Gno for Sublime Text](https://github.com/jdkato/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
+- [Gno for Sublime Text](https://github.com/gno-playground/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - The `:GnoFileTest` snippet for vim.
 - [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
 - [gnopls](https://github.com/gnoverse/gnopls) - A language server providing editor features like autocompletion, hover, and go-to-definition.
@@ -113,7 +113,7 @@ _Resources to help you understand how to get around gno.land and use Gno._
 _Connecting web2 to the gno.land blockchain._
 
 - [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) - A Gno-Go package, allowing you to connect to gno.land chains via Go programs at will.
-- [gnolang/blog](https://github.com/gnolang/blog/tree/main/cmd/gnoblog-cli) - `r/gnolang/blog` client, or how to create custom `gnokey` clients, using the [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
+- [gnolang/blog](https://github.com/gnolang/blog/tree/main/cmd/gnoblog-cli) - `r/gnoland/blog` client, or how to create custom `gnokey` clients, using the [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
 - [tm2-js-client](https://github.com/gnolang/tm2-js-client) - A TM2 JavaScript client library.
 - [gno-js-client](https://github.com/gnolang/gno-js-client) - A Gno JavaScript client library, built upon `tm2-js` with additional Gno-specific functionality.
 - [gnonative](https://github.com/gnolang/gnonative) - A framework for building and porting gno.land dApps in your native language, with React Native and Expo support.
@@ -154,7 +154,7 @@ _Note: We'd like to try a section with small tips & snippets and less curation. 
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the 
-[contribution guidelines](https://github.com/gnoverse/awesome-gno/blob/master/CONTRIBUTING.md) first.
+[contribution guidelines](https://github.com/gnoverse/awesome-gno/blob/main/CONTRIBUTING.md) first.
 
 We will keep some pull requests open if we're not sure whether those libraries 
 are awesome. You could [vote for them](https://github.com/gnoverse/awesome-gno/pulls) by adding :+1: to them.
