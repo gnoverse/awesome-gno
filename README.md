@@ -95,17 +95,8 @@ _Tools useful for developing in Gno._
 
 _Resources to help you understand how to get around gno.land and use Gno._
 
-- [Gno By Example](https://gno-by-example.com) - Interactive tutorials and code snippets for learning Gno through real-time examples.
 - [Getting Started](https://github.com/gnolang/getting-started) - A repo to help you get started with building realms in Gno.
 - [A gentle introduction to gno.land](https://www.youtube.com/watch?v=hTGeG0z09NU&t=135s) - An intro presentation into gno.land (2024).
-- [From Zero to gno.land Hero](https://github.com/leohhhn/gno-fzgh/blob/main/README.md) - A complete 0 to 1 tutorial on building your first dApp in gno.land.
-- [A Beginner’s Guide to the gno.land Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the testnet.
-- [Gno 101](https://github.com/onbloc/gnolang-101) - A course designed for aspiring smart-contract developers on gno.land.
-- [Gno Basics](https://github.com/moul/gno-basics) - Simple and common examples of Gno realms.
-- [Gno Smart Contract Demo](https://www.youtube.com/watch?v=-BlnEXCs0eI) - A short video tutorial on writing and deploying a simple Realm and Package.
-- [Gno Chinese Station](https://www.gnoland.cn) - A website for Chinese developers, providing tutorials, resources, and Gno news.
-- [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
-- ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl.
 - [gno-contracts](https://github.com/moul/gno-contracts) - A collection of 50+ versioned, self-contained gno.land packages and realms by moul, tested against gno master.
 
 ## SDKs & Clients
@@ -171,3 +162,7 @@ _Older, outdated, or archived items._
 - [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
 - [tx-exports](https://github.com/gnolang/tx-exports) - Archived transaction data from past and present gno.land networks (gnoland1, staging, topaz, and the test1-test13 testnets).
 - [Hello Gno!](https://github.com/xplrz/gnoland-workshop) - A step-by-step workshop on Gno and gno.land's main features.
+- ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl (2023).
+- [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
+- [From Zero to gno.land Hero](https://github.com/leohhhn/gno-fzgh/blob/main/README.md) - A complete 0 to 1 tutorial on building your first dApp in gno.land (2024).
+- [A Beginner’s Guide to the gno.land Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the testnet (2022).
