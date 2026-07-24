@@ -1,20 +1,20 @@
 <div align="center">
 	<img src="./banner.png" />
+	<br /><br />
+	<a href="https://awesome.re"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
 </div>
-
-# Awesome Gno [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 > Do you gno?
 
-This repository is a hub for apps, frameworks, libraries, and resources.
+This repository is a hub for apps, frameworks, libraries, and resources
 related to Gno & gno.land. It serves two main purposes:
 
-1. It’s a place for newcomers to explore what's happening on gno.land.
+1. It’s a place for newcomers to explore what's happening on gno.land,
 get inspiration and learn about how to become good contributors to gno.land.
-2. It’s a space for everyone to publicly share their [gno.land](https://gno.land) projects.
+2. It’s a space for everyone to publicly share their gno.land projects.
 
 > _We update this repo periodically. We welcome any PRs that will
-add new content, update outdated content, or propose other ideas._ 
+> add new content, update outdated content, or propose other ideas._
 
 ## Contents
 
@@ -23,13 +23,13 @@ add new content, update outdated content, or propose other ideas._
 3. [Apps](#apps)
 4. [Community Apps](#community-apps)
 5. [Tools](#tools)
-6. [Tutorials](#tutorials-presentations-resources)
+6. [Tutorials, Presentations, Resources](#tutorials-presentations-resources)
 7. [SDKs & Clients](#sdks--clients)
 8. [Frameworks](#frameworks)
-9. [Social](#socials)
+9. [Socials](#socials)
 10. [Misc](#misc)
 11. [Tips & Snippets](#tips--snippets)
-12. [Contributing](#contributing)
+12. [Archive](#archive)
 
 ## Official Links
 
@@ -44,7 +44,7 @@ add new content, update outdated content, or propose other ideas._
 
 _The currently active gno.land networks._
 
-- [The Portal Loop](https://gno.land/) - A rolling testnet, serving as the gno.land homepage. Read more [here](https://docs.gno.land/concepts/portal-loop).
+- [The Portal Loop](https://docs.gno.land/resources/gnoland-networks) - A rolling testnet, serving as the gno.land homepage.
 - [test5.gno.land](https://test5.gno.land/) - The latest stable testnet environment, released in November 2024.
 
 ## Apps
@@ -63,7 +63,7 @@ _Apps developed by the gno.land team._
 
 _Apps developed by the gno.land community._
 
-- [Gnoswap](https://github.com/gnoswap-labs/gnoswap) - the first DEX built on gno.land (currently in beta).
+- [Gnoswap](https://github.com/gnoswap-labs/gnoswap) - The first DEX built on gno.land (currently in beta).
 - [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
 - [Gnolove](https://gnolove.world) - Community leaderboard and contributions analytics for builders of the Gnoland ecosystem.
 - [Zenao](https://zenao.io) - Organize events in seconds then build your resilient community & social organizations.
@@ -74,13 +74,13 @@ _Tools useful for developing in Gno._
 
 - [gnodev](https://github.com/gnolang/gno/tree/master/contribs/gnodev) - Your Gno development companion, used for local Gno development.
 - [Gno Debugger](https://gno.land/r/gnoland/blog:p/gno-debugger) - A debugger that comes packaged with the GnoVM.
-- [GnoScan](http://gnoscan.io/) - A gno.land blockchain explorer, making on-chain data legible and intuitive for everyone.
-- [tx-indexer](https://github.com/gnolang/tx-indexer) - A TM2 blockchain indexer with GraphQL support.
+- [GnoScan](http://gnoscan.io/) - A gno.land block explorer, making on-chain data legible and intuitive for everyone.
+- [tx-indexer](https://github.com/gnolang/tx-indexer) - A TM2 (Tendermint2) chain indexer with GraphQL support.
 - [Supernova](https://github.com/gnolang/supernova) - A stress testing tool for the Gno Tendermint2 blockchain.
 - [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Experimental language support for Gno in VS Code.
 - [Gno-mode for Emacs](https://gist.github.com/gfanton/6e233656dfeabd7a46f21f7507b6b311) - Major mode for editing Gno files in Emacs, based on go-mode. Work in progress.
 - [Gno for Sublime Text](https://github.com/jdkato/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
-- [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - `:GnoFileTest` snippet for vim
+- [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - The `:GnoFileTest` snippet for vim.
 - [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
 - [gnopls](https://github.com/gnoverse/gnopls) - A language server providing editor features like autocompletion, hover, and go-to-definition.
 
@@ -104,7 +104,7 @@ _Resources to help you understand how to get around gno.land and use Gno._
 
 _Connecting web2 to the gno.land blockchain._
 
-- [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) - a Gno-Go package, allowing you to connect to gno.land chains via Go programs at will.
+- [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) - A Gno-Go package, allowing you to connect to gno.land chains via Go programs at will.
 - [gnolang/blog](https://github.com/gnolang/blog/tree/main/cmd/gnoblog-cli) - `r/gnolang/blog` client, or how to create custom `gnokey` clients, using the [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
 - [tm2-js-client](https://github.com/gnolang/tm2-js-client) - A TM2 JavaScript client library.
 - [gno-js-client](https://github.com/gnolang/gno-js-client) - A Gno JavaScript client library, built upon `tm2-js` with additional Gno-specific functionality.
@@ -139,22 +139,22 @@ _Miscellaneous._
 _Note: We'd like to try a section with small tips & snippets and less curation. Please open PRs with just a link to a gist, tweet, screenshot, or discussion._
 
 - [Tendermint2 JSON-RPC Postman Collection](https://gist.github.com/zivkovicmilos/d7b98103f0611ac3b26202a29cee02c4)
-- [Goland IDE Intellisense Workaround](https://x.com/leohhhn/status/1836740567541367157) - Developing in the Gno monorepo can provide Gno Intellisense using the builtin Go language support.
+- [GoLand IDE Intellisense Workaround](https://x.com/leohhhn/status/1836740567541367157) - Developing in the Gno monorepo can provide Gno Intellisense using the builtin Go language support.
 
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the 
-[contribution guidelines](https://github.com/gnolang/awesome-gno/blob/master/CONTRIBUTING.md) first.
+[contribution guidelines](https://github.com/gnoverse/awesome-gno/blob/master/CONTRIBUTING.md) first.
 
 We will keep some pull requests open if we're not sure whether those libraries 
-are awesome. You could [vote for them](https://github.com/gnolang/awesome-gno/pulls) by adding :+1: to them.
+are awesome. You could [vote for them](https://github.com/gnoverse/awesome-gno/pulls) by adding :+1: to them.
 
 ## Archive
 
-_Older, outdated, or archived items._ 
+_Older, outdated, or archived items._
 
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
-- [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/demo/boards.
+- [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on the `r/demo/boards` realm.
 - [test3.gno.land](https://test3.gno.land/) - Third official testnet environment (archive).
 - [test2.gno.land](https://test2.gno.land/) - Second official testnet environment (archive).
 - [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).

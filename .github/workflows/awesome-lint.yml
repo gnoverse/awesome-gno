@@ -1,0 +1,28 @@
+name: awesome-lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # awesome-lint's git-repo-age rule walks the full commit history,
+          # so a shallow clone would make it fail.
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Run awesome-lint
+        run: npx --yes awesome-lint
+        env:
+          # Lets the awesome-github rule query the GitHub API without hitting
+          # the low unauthenticated rate limit (checks description + topics).
+          github_token: ${{ secrets.GITHUB_TOKEN }}
