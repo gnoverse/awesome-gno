@@ -67,6 +67,7 @@ _Apps developed by the gno.land community._
 - [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
 - [Gnolove](https://gnolove.world) - Community leaderboard and contributions analytics for builders of the Gnoland ecosystem.
 - [Zenao](https://zenao.io) - Organize events in seconds then build your resilient community & social organizations.
+- [Gnomputer](https://github.com/moul/gnomputer) - A windowed web workstation for browsing realms, source, and live chain activity.
 
 ## Tools
 
@@ -85,6 +86,7 @@ _Tools useful for developing in Gno._
 - [gnopls](https://github.com/gnoverse/gnopls) - A language server providing editor features like autocompletion, hover, and go-to-definition.
 - [gno-mcp](https://github.com/gnoverse/gno-mcp) - An MCP server and agent skill connecting realms to AI coding assistants like Claude, Cursor, and Gemini CLI.
 - [gnobro](https://github.com/gnolang/gno/tree/master/contribs/gnobro) - A terminal UI for browsing and exploring Gno realms, with real-time gnodev integration via WebSocket.
+- [gnovanity](https://github.com/gnoverse/gnovanity) - A command-line tool for generating vanity wallet addresses.
 
 ## Tutorials, Presentations, Resources
 
@@ -101,6 +103,7 @@ _Resources to help you understand how to get around gno.land and use Gno._
 - [Gno Chinese Station](https://www.gnoland.cn) - A website for Chinese developers, providing tutorials, resources, and Gno news.
 - [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
 - ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl.
+- [gno-contracts](https://github.com/moul/gno-contracts) - A collection of 50+ versioned, self-contained gno.land packages and realms by moul, tested against gno master.
 
 ## SDKs & Clients
 
@@ -117,6 +120,7 @@ _Connecting web2 to the gno.land blockchain._
 _Collections of gno packages providing generic functionality which developers can extend with custom code to create applications._
 
 - [daokit](https://github.com/samouraiworld/gnodaokit) - Create DAOs that can mirror real-world organizations.
+- [gnit](https://github.com/gnoverse/gnit) - A composable Git protocol package that lets any realm act as a Git repository.
 
 ## Socials
 
