@@ -1,0 +1,109 @@
+name: pr-summary
+
+# Posts (and keeps updating) a single sticky comment summarizing what a PR
+# changes in the list: entries added/removed, their section, and a live link
+# check. Informational only — the awesome-lint and link-check jobs remain the
+# authoritative gate.
+#
+# Uses pull_request_target so it has permission to comment on PRs from forks.
+# It NEVER checks out or executes the PR's code: it only reads the diff and the
+# head README.md through the API and performs outbound HTTP checks on the URLs.
+
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const MARKER = '<!-- awesome-gno-pr-bot -->';
+            try {
+              const { owner, repo } = context.repo;
+              const pr = context.payload.pull_request;
+              const number = pr.number;
+
+              // Head README (data only — no code execution).
+              let headLines = [];
+              try {
+                const { data } = await github.rest.repos.getContent({
+                  owner: pr.head.repo.owner.login,
+                  repo: pr.head.repo.name,
+                  path: 'README.md',
+                  ref: pr.head.sha,
+                });
+                headLines = Buffer.from(data.content, 'base64').toString('utf8').split('\n');
+              } catch (e) { /* README may not exist on head; ignore */ }
+
+              // Added / removed list entries from the README diff.
+              const files = await github.paginate(github.rest.pulls.listFiles, {
+                owner, repo, pull_number: number, per_page: 100,
+              });
+              const readme = files.find(f => f.filename === 'README.md');
+              const added = [], removed = [];
+              if (readme && readme.patch) {
+                for (const line of readme.patch.split('\n')) {
+                  if (/^\+- \[/.test(line)) added.push(line.slice(1));
+                  else if (/^-- \[/.test(line)) removed.push(line.slice(1));
+                }
+              }
+
+              const nameOf = l => ((l.match(/\[([^\]]+)\]/) || [])[1] || '?');
+              const urlOf  = l => { const m = l.match(/\]\((https?:\/\/[^)\s]+)\)/); return m ? m[1] : null; };
+              const sectionOf = entry => {
+                const i = headLines.indexOf(entry);
+                if (i < 0) return null;
+                for (let j = i; j >= 0; j--) if (headLines[j].startsWith('## ')) return headLines[j].slice(3).trim();
+                return null;
+              };
+              const check = async u => {
+                try {
+                  const r = await fetch(u, { redirect: 'follow', headers: { 'User-Agent': 'awesome-gno-pr-bot' } });
+                  return r.status;
+                } catch (e) { return 0; }
+              };
+
+              let body = `${MARKER}\n### 📋 awesome-gno PR summary\n\n`;
+              if (added.length === 0 && removed.length === 0) {
+                body += `_No list entries added or removed in this PR._\n`;
+              } else {
+                if (added.length) {
+                  const rows = [];
+                  for (const l of added) {
+                    const u = urlOf(l);
+                    const s = sectionOf(l) || '—';
+                    const st = u ? await check(u) : null;
+                    const ok = st && (st < 400 || st === 403 || st === 429);
+                    const status = st == null ? '—' : (ok ? `✅ ${st}` : `❌ ${st || 'conn'}`);
+                    rows.push(`| ${nameOf(l)} | ${s} | ${u ? `[link](${u})` : '—'} | ${status} |`);
+                  }
+                  body += `**Added ${added.length} ${added.length === 1 ? 'entry' : 'entries'}:**\n\n`;
+                  body += `| Entry | Section | Link | Status |\n|---|---|---|---|\n${rows.join('\n')}\n\n`;
+                }
+                if (removed.length) {
+                  body += `**Removed ${removed.length}:**\n${removed.map(l => `- ${nameOf(l)}`).join('\n')}\n\n`;
+                }
+              }
+              body += `<sub>Live link check — 403/429 are shown but tolerated (some hosts block CI runners). `;
+              body += `The **awesome-lint** and **link-check** jobs are the authoritative gate.</sub>\n\n`;
+              body += `---\n- [ ] 🔄 Re-run CI (maintainers only — tick to re-run this PR's checks; it unticks itself)`;
+
+              const comments = await github.paginate(github.rest.issues.listComments, {
+                owner, repo, issue_number: number, per_page: 100,
+              });
+              const existing = comments.find(c => c.body && c.body.includes(MARKER));
+              if (existing) {
+                await github.rest.issues.updateComment({ owner, repo, comment_id: existing.id, body });
+              } else {
+                await github.rest.issues.createComment({ owner, repo, issue_number: number, body });
+              }
+            } catch (err) {
+              core.warning(`pr-summary bot failed (non-blocking): ${err.message}`);
+            }
