@@ -1,0 +1,12 @@
+# Decommissioned / rolling gno.land testnets.
+# These are listed for historical reference (Archive section) and testnet
+# endpoints are torn down as new ones ship, so they must not fail CI.
+https?://test[0-9]+\.gno\.land/?
+https?://rpc\.test[0-9]+\.testnets\.gno\.land/?
+
+# Chinese community site, intermittently unreachable from CI runners.
+https?://(www\.)?gnoland\.cn/?
+
+# Live sites that refuse connections from GitHub-hosted runner IP ranges
+# (verified reachable from a normal client; would otherwise be false failures).
+https?://(www\.)?zenao\.io/?
