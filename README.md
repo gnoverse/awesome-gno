@@ -36,6 +36,7 @@ get inspiration and learn about how to become good contributors to gno.land.
 - [gno.land](https://gno.land/) - The official website of gno.land.
 - [gno monorepo](https://github.com/gnolang/gno) - The official core repo of the project, containing the core libraries, tools, and example Gno code.
 - [docs.gno.land](https://docs.gno.land) - The official docs of gno.land.
+- [r/docs](https://staging.gno.land/r/docs/home) - The on-chain documentation realm, with runnable examples rendered directly in gno.land.
 - [gno.land events calendar](https://gno.link/calendar) - The official gno.land Google calendar.
 - [Plan](https://github.com/gnolang/gno/blob/master/PLAN.md) - The foundational plan for gno.land.
 - [Philosophy](https://github.com/gnolang/gno/blob/master/PHILOSOPHY.md) - The fundamental philosophies of gno.land.
@@ -54,8 +55,8 @@ _Apps developed by the gno.land team._
 
 - [Gno Playground](https://play.gno.land/) - An online Gno editor that allows for quick testing, deploying, and sharing of Gno code, modeled after the Go Playground.
 - [Gno Studio Connect](https://gno.studio/connect) - A tool that makes interaction with Gno applications simple.
-- [GnoChess](https://github.com/gnolang/gnochess) - A chess server implementation in Gno, complete with a frontend, faucet & tutorial to develop your own.
-- [meme.land](https://github.com/gnolang/memeland) - An image sharing application built using Gno, React and Vue.
+- [GnoChess](https://github.com/gnoverse/gnochess) - A chess server implementation in Gno, complete with a frontend, faucet & tutorial to develop your own.
+- [meme.land](https://github.com/gnoverse/memeland) - An image sharing application built using Gno, React and Vue.
 - [Gno Faucet Hub](https://faucet.gno.land) - A central place for all gno.land faucets.
 - [Is gno.land down?](https://status.gnoteam.com) - A dashboard showing the status of gno.land services & networks.
 - [OpenOcean](https://github.com/Molaryy/openocean) - OpenSea Clone in Gno.
@@ -77,12 +78,12 @@ _Tools useful for developing in Gno._
 
 - [gnodev](https://github.com/gnolang/gno/tree/master/contribs/gnodev) - Your Gno development companion, used for local Gno development.
 - [Gno Debugger](https://gno.land/r/gnoland/blog:p/gno-debugger) - A debugger that comes packaged with the GnoVM.
-- [GnoScan](http://gnoscan.io/) - A gno.land block explorer, making on-chain data legible and intuitive for everyone.
+- [GnoScan](https://gnoscan.io/) - A gno.land block explorer, making on-chain data legible and intuitive for everyone.
 - [tx-indexer](https://github.com/gnolang/tx-indexer) - A TM2 (Tendermint2) chain indexer with GraphQL support.
 - [Supernova](https://github.com/gnolang/supernova) - A stress testing tool for the Gno Tendermint2 blockchain.
-- [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Experimental language support for Gno in VS Code.
+- [Gno Extension for VS Code](https://github.com/gnoverse/vscode-gno) - Official gnoverse-maintained language support for Gno in VS Code.
 - [Gno-mode for Emacs](https://gist.github.com/gfanton/6e233656dfeabd7a46f21f7507b6b311) - Major mode for editing Gno files in Emacs, based on go-mode. Work in progress.
-- [Gno for Sublime Text](https://github.com/jdkato/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
+- [Gno for Sublime Text](https://github.com/gno-playground/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - The `:GnoFileTest` snippet for vim.
 - [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
 - [gnopls](https://github.com/gnoverse/gnopls) - A language server providing editor features like autocompletion, hover, and go-to-definition.
@@ -96,25 +97,17 @@ _Tools useful for developing in Gno._
 
 _Resources to help you understand how to get around gno.land and use Gno._
 
-- [Gno By Example](https://gno-by-example.com) - Interactive tutorials and code snippets for learning Gno through real-time examples.
 - [Getting Started](https://github.com/gnolang/getting-started) - A repo to help you get started with building realms in Gno.
 - [A gentle introduction to gno.land](https://www.youtube.com/watch?v=hTGeG0z09NU&t=135s) - An intro presentation into gno.land (2024).
-- [From Zero to gno.land Hero](https://github.com/leohhhn/gno-fzgh/blob/main/README.md) - A complete 0 to 1 tutorial on building your first dApp in gno.land.
-- [A Beginner’s Guide to the gno.land Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the testnet.
-- [Gno 101](https://github.com/onbloc/gnolang-101) - A course designed for aspiring smart-contract developers on gno.land.
-- [Gno Basics](https://github.com/moul/gno-basics) - Simple and common examples of Gno realms.
-- [Gno Smart Contract Demo](https://www.youtube.com/watch?v=-BlnEXCs0eI) - A short video tutorial on writing and deploying a simple Realm and Package.
-- [Gno Chinese Station](https://www.gnoland.cn) - A website for Chinese developers, providing tutorials, resources, and Gno news.
-- [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
-- ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl.
 - [gno-contracts](https://github.com/moul/gno-contracts) - A collection of 50+ versioned, self-contained gno.land packages and realms by moul, tested against gno master.
+- [Peer Dev Learning](https://www.youtube.com/playlist?list=PLJZrQikyfMc-kBojXgAojOz4UQPuq4DiY) - A YouTube playlist of gno.land development tutorials by Peer Dev.
 
 ## SDKs & Clients
 
 _Connecting web2 to the gno.land blockchain._
 
 - [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) - A Gno-Go package, allowing you to connect to gno.land chains via Go programs at will.
-- [gnolang/blog](https://github.com/gnolang/blog/tree/main/cmd/gnoblog-cli) - `r/gnolang/blog` client, or how to create custom `gnokey` clients, using the [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
+- [gnolang/blog](https://github.com/gnolang/blog/tree/main/cmd/gnoblog-cli) - `r/gnoland/blog` client, or how to create custom `gnokey` clients, using the [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
 - [tm2-js-client](https://github.com/gnolang/tm2-js-client) - A TM2 JavaScript client library.
 - [gno-js-client](https://github.com/gnolang/gno-js-client) - A Gno JavaScript client library, built upon `tm2-js` with additional Gno-specific functionality.
 - [gnonative](https://github.com/gnolang/gnonative) - A framework for building and porting gno.land dApps in your native language, with React Native and Expo support.
@@ -155,7 +148,7 @@ _Note: We'd like to try a section with small tips & snippets and less curation. 
 ## Contributing
 
 Your contributions are always welcome! Please take a look at the 
-[contribution guidelines](https://github.com/gnoverse/awesome-gno/blob/master/CONTRIBUTING.md) first.
+[contribution guidelines](https://github.com/gnoverse/awesome-gno/blob/main/CONTRIBUTING.md) first.
 
 We will keep some pull requests open if we're not sure whether those libraries 
 are awesome. You could [vote for them](https://github.com/gnoverse/awesome-gno/pulls) by adding :+1: to them.
@@ -170,4 +163,9 @@ _Older, outdated, or archived items._
 - [test3.gno.land](https://test3.gno.land/) - Third official testnet environment (archive).
 - [test2.gno.land](https://test2.gno.land/) - Second official testnet environment (archive).
 - [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
+- [tx-exports](https://github.com/gnolang/tx-exports) - Archived transaction data from past and present gno.land networks (gnoland1, staging, topaz, and the test1-test13 testnets).
 - [Hello Gno!](https://github.com/xplrz/gnoland-workshop) - A step-by-step workshop on Gno and gno.land's main features.
+- ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl (2023).
+- [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
+- [From Zero to gno.land Hero](https://github.com/leohhhn/gno-fzgh/blob/main/README.md) - A complete 0 to 1 tutorial on building your first dApp in gno.land (2024).
+- [A Beginner’s Guide to the gno.land Testnet](https://medium.com/@onbloc/a-beginners-guide-to-the-gnoland-testnet-6fdc693a48f4) - A visual guide to creating a wallet and receiving $GNOTs on the testnet (2022).
