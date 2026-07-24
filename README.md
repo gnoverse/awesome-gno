@@ -83,6 +83,7 @@ _Tools useful for developing in Gno._
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - The `:GnoFileTest` snippet for vim.
 - [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
 - [gnopls](https://github.com/gnoverse/gnopls) - A language server providing editor features like autocompletion, hover, and go-to-definition.
+- [gno-mcp](https://github.com/gnoverse/gno-mcp) - An MCP server and agent skill connecting realms to AI coding assistants like Claude, Cursor, and Gemini CLI.
 - [gnAsteroid](https://github.com/gnAsteroid/gnAsteroid) - A creation-kit for asteroids — standalone gnoweb frontends that serve markdown wikis, using gno.land as the remote.
 
 ## Tutorials, Presentations, Resources
