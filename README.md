@@ -44,7 +44,7 @@ get inspiration and learn about how to become good contributors to gno.land.
 
 _The currently active gno.land networks._
 
-- [The Portal Loop](https://docs.gno.land/concepts/portal-loop) - A rolling testnet, serving as the gno.land homepage.
+- [The Portal Loop](https://docs.gno.land/resources/gnoland-networks) - A rolling testnet, serving as the gno.land homepage.
 - [test5.gno.land](https://test5.gno.land/) - The latest stable testnet environment, released in November 2024.
 
 ## Apps
@@ -151,10 +151,10 @@ are awesome. You could [vote for them](https://github.com/gnoverse/awesome-gno/p
 
 ## Archive
 
-_Older, outdated, or archived items._ 
+_Older, outdated, or archived items._
 
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
-- [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on https://gno.land/r/demo/boards.
+- [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on the `r/demo/boards` realm.
 - [test3.gno.land](https://test3.gno.land/) - Third official testnet environment (archive).
 - [test2.gno.land](https://test2.gno.land/) - Second official testnet environment (archive).
 - [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
