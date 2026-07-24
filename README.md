@@ -102,6 +102,7 @@ _Resources to help you understand how to get around gno.land and use Gno._
 - [Gno Chinese Station](https://www.gnoland.cn) - A website for Chinese developers, providing tutorials, resources, and Gno news.
 - [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
 - ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl.
+- [gno-contracts](https://github.com/moul/gno-contracts) - A collection of 50+ versioned, self-contained gno.land packages and realms by moul, tested against gno master.
 
 ## SDKs & Clients
 
