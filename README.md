@@ -45,7 +45,7 @@ get inspiration and learn about how to become good contributors to gno.land.
 _The currently active gno.land networks._
 
 - [The Portal Loop](https://docs.gno.land/resources/gnoland-networks) - A rolling testnet, serving as the gno.land homepage.
-- [test5.gno.land](https://test5.gno.land/) - The latest stable testnet environment, released in November 2024.
+- [test13.testnets.gno.land](https://test13.testnets.gno.land/) - The latest stable testnet environment, released in June 2026.
 
 ## Apps
 
@@ -85,6 +85,7 @@ _Tools useful for developing in Gno._
 - [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
 - [gnopls](https://github.com/gnoverse/gnopls) - A language server providing editor features like autocompletion, hover, and go-to-definition.
 - [gno-mcp](https://github.com/gnoverse/gno-mcp) - An MCP server and agent skill connecting realms to AI coding assistants like Claude, Cursor, and Gemini CLI.
+- [gnobro](https://github.com/gnolang/gno/tree/master/contribs/gnobro) - A terminal UI for browsing and exploring Gno realms, with real-time gnodev integration via WebSocket.
 - [gnovanity](https://github.com/gnoverse/gnovanity) - A command-line tool for generating vanity wallet addresses.
 
 ## Tutorials, Presentations, Resources
@@ -112,6 +113,7 @@ _Connecting web2 to the gno.land blockchain._
 - [gnolang/blog](https://github.com/gnolang/blog/tree/main/cmd/gnoblog-cli) - `r/gnolang/blog` client, or how to create custom `gnokey` clients, using the [gnoclient](https://github.com/gnolang/gno/tree/master/gno.land/pkg/gnoclient) package.
 - [tm2-js-client](https://github.com/gnolang/tm2-js-client) - A TM2 JavaScript client library.
 - [gno-js-client](https://github.com/gnolang/gno-js-client) - A Gno JavaScript client library, built upon `tm2-js` with additional Gno-specific functionality.
+- [gnonative](https://github.com/gnolang/gnonative) - A framework for building and porting gno.land dApps in your native language, with React Native and Expo support.
 
 ## Frameworks
 
@@ -160,6 +162,7 @@ _Older, outdated, or archived items._
 
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
 - [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on the `r/demo/boards` realm.
+- [test5.gno.land](https://test5.gno.land/) - Fifth official testnet environment (archive).
 - [test3.gno.land](https://test3.gno.land/) - Third official testnet environment (archive).
 - [test2.gno.land](https://test2.gno.land/) - Second official testnet environment (archive).
 - [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
