@@ -85,6 +85,7 @@ _Tools useful for developing in Gno._
 - [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
 - [gnopls](https://github.com/gnoverse/gnopls) - A language server providing editor features like autocompletion, hover, and go-to-definition.
 - [gno-mcp](https://github.com/gnoverse/gno-mcp) - An MCP server and agent skill connecting realms to AI coding assistants like Claude, Cursor, and Gemini CLI.
+- [gnovanity](https://github.com/gnoverse/gnovanity) - A command-line tool for generating vanity wallet addresses.
 
 ## Tutorials, Presentations, Resources
 
