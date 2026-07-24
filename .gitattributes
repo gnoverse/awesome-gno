@@ -1,0 +1,12 @@
+# The list is append-heavy: almost every PR adds a bullet to the end of a
+# section, so two open PRs routinely collide on the same lines of README.md.
+#
+# `merge=union` tells git (and GitHub's merge/"update branch" machinery) to keep
+# the lines from BOTH sides of a three-way merge instead of raising a conflict.
+# For an additive list that means two PRs each adding an entry just both land —
+# no manual conflict resolution, no rebase churn.
+#
+# Safety net: the awesome-lint job (double-link, list-item, toc rules) and the
+# link-check job still run on the merged result, so a duplicate or malformed
+# entry that a union merge might introduce is caught in CI rather than shipped.
+README.md merge=union
