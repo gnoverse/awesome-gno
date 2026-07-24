@@ -82,6 +82,7 @@ _Tools useful for developing in Gno._
 - [Gno for Sublime Text](https://github.com/jdkato/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - `:GnoFileTest` snippet for vim
 - [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
+- [gnopls](https://github.com/gnoverse/gnopls) - A language server providing editor features like autocompletion, hover, and go-to-definition.
 
 ## Tutorials, Presentations, Resources
 
