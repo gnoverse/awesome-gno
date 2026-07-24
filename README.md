@@ -45,7 +45,8 @@ get inspiration and learn about how to become good contributors to gno.land.
 _The currently active gno.land networks._
 
 - [The Portal Loop](https://docs.gno.land/resources/gnoland-networks) - A rolling testnet, serving as the gno.land homepage.
-- [test13.testnets.gno.land](https://test13.testnets.gno.land/) - The latest stable testnet environment, released in June 2026.
+- [topaz.testnets.gno.land](https://topaz.testnets.gno.land/) - The latest stable testnet environment.
+- [test13.testnets.gno.land](https://test13.testnets.gno.land/) - The previous stable testnet environment.
 
 ## Apps
 
