@@ -92,7 +92,8 @@ jobs:
                 }
               }
               body += `<sub>Live link check — 403/429 are shown but tolerated (some hosts block CI runners). `;
-              body += `The **awesome-lint** and **link-check** jobs are the authoritative gate.</sub>`;
+              body += `The **awesome-lint** and **link-check** jobs are the authoritative gate.</sub>\n\n`;
+              body += `---\n- [ ] 🔄 Re-run CI (maintainers only — tick to re-run this PR's checks; it unticks itself)`;
 
               const comments = await github.paginate(github.rest.issues.listComments, {
                 owner, repo, issue_number: number, per_page: 100,
