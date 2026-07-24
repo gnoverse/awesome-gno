@@ -1,0 +1,77 @@
+name: ci-retrigger
+
+# Lets a maintainer re-run a PR's checks by ticking the "Re-run CI" checkbox in
+# the pr-summary bot comment. Runs on issue_comment (base-branch context, base
+# token) so it works for fork PRs too. It never checks out or runs PR code — it
+# only re-runs the PR's already-recorded workflow runs after verifying the actor
+# has write access.
+
+on:
+  issue_comment:
+    types: [created, edited]
+
+permissions:
+  actions: write
+  pull-requests: write
+  contents: read
+
+jobs:
+  retrigger:
+    # Only act on PR comments that contain the bot marker and a ticked box.
+    if: >-
+      github.event.issue.pull_request != null &&
+      contains(github.event.comment.body, '<!-- awesome-gno-pr-bot -->') &&
+      (contains(github.event.comment.body, '- [x]') || contains(github.event.comment.body, '- [X]'))
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              const { owner, repo } = context.repo;
+              const comment = context.payload.comment;
+              const issue = context.payload.issue;
+
+              // Only honor requests from users with write access.
+              const actor = context.actor;
+              let perm = 'none';
+              try {
+                const p = await github.rest.repos.getCollaboratorPermissionLevel({ owner, repo, username: actor });
+                perm = p.data.permission;
+              } catch (e) { /* not a collaborator */ }
+              if (!['admin', 'write', 'maintain'].includes(perm)) {
+                core.warning(`Ignoring re-run tick from ${actor} (permission: ${perm}).`);
+                return;
+              }
+
+              // Resolve the PR head and re-run its latest link-check / awesome-lint runs.
+              const pull_number = issue.number;
+              const pr = await github.rest.pulls.get({ owner, repo, pull_number });
+              const headSha = pr.data.head.sha;
+              const runs = await github.rest.actions.listWorkflowRunsForRepo({ owner, repo, head_sha: headSha, per_page: 100 });
+              const wanted = ['link-check', 'awesome-lint'];
+              const latest = {};
+              for (const r of runs.data.workflow_runs) {
+                if (!wanted.includes(r.name)) continue;
+                if (!latest[r.name] || new Date(r.created_at) > new Date(latest[r.name].created_at)) latest[r.name] = r;
+              }
+              const done = [];
+              for (const name of wanted) {
+                const r = latest[name];
+                if (!r) continue;
+                try { await github.rest.actions.reRunWorkflow({ owner, repo, run_id: r.id }); done.push(name); }
+                catch (e) { core.warning(`re-run ${name} failed: ${e.message}`); }
+              }
+
+              // Untick the box so it can be used again (this edit re-fires the
+              // event, but with an unticked box the job's `if` no longer matches).
+              const newBody = comment.body.replace(/- \[[xX]\]/, '- [ ]');
+              await github.rest.issues.updateComment({ owner, repo, comment_id: comment.id, body: newBody });
+              try {
+                await github.rest.reactions.createForIssueComment({ owner, repo, comment_id: comment.id, content: 'rocket' });
+              } catch (e) { /* reactions are best-effort */ }
+
+              core.info(`Re-ran [${done.join(', ') || 'nothing found'}] for ${headSha} at ${actor}'s request.`);
+            } catch (err) {
+              core.warning(`ci-retrigger failed (non-blocking): ${err.message}`);
+            }
