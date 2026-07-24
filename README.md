@@ -84,6 +84,7 @@ _Tools useful for developing in Gno._
 - [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
 - [gnopls](https://github.com/gnoverse/gnopls) - A language server providing editor features like autocompletion, hover, and go-to-definition.
 - [gno-mcp](https://github.com/gnoverse/gno-mcp) - An MCP server and agent skill connecting realms to AI coding assistants like Claude, Cursor, and Gemini CLI.
+- [gnAsteroid](https://github.com/gnAsteroid/gnAsteroid) - A creation-kit for asteroids — standalone gnoweb frontends that serve markdown wikis, using gno.land as the remote.
 
 ## Tutorials, Presentations, Resources
 
@@ -100,6 +101,8 @@ _Resources to help you understand how to get around gno.land and use Gno._
 - [Gno Chinese Station](https://www.gnoland.cn) - A website for Chinese developers, providing tutorials, resources, and Gno news.
 - [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
 - ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl.
+- [asteroid0](https://gnAsteroid.com) - Asteroid zero, showcasing the asteroid creation-kit.
+- [greps' asteroid](https://greps.gnAsteroid.com) - Another asteroid, home to a gno enthusiast.
 
 ## SDKs & Clients
 
