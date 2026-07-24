@@ -57,5 +57,5 @@ to write code that looks like Go but is always deterministic, efficient, and
 adapted to the blockchain.
 
 For more information, see:
-- [From Go to Gno](https://github.com/gnolang/gno/blob/master/docs/concepts/from-go-to-gno.md)
-- [Effective Gno](https://github.com/gnolang/gno/blob/master/docs/how-to-guides/effective-gno.md) (coming soon)
+- [Go/Gno compatibility](https://github.com/gnolang/gno/blob/master/docs/resources/go-gno-compatibility.md)
+- [Effective Gno](https://github.com/gnolang/gno/blob/master/docs/resources/effective-gno.md)

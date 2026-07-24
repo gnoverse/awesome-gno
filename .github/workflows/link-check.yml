@@ -1,0 +1,35 @@
+name: link-check
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  schedule:
+    # Weekly, to catch link rot in already-merged entries.
+    - cron: "0 6 * * 1"
+
+permissions:
+  contents: read
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check links
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # 403/429 are accepted because several hosts (Medium, X/Twitter,
+          # some blogs) bot-block CI runners even though the page is live.
+          # Genuinely dead links still surface as 404/410/5xx/timeouts.
+          # Host-specific exceptions live in .lycheeignore.
+          args: >-
+            --verbose
+            --no-progress
+            --max-retries 3
+            --retry-wait-time 5
+            --accept 200,201,202,203,204,206,301,302,303,307,308,403,429
+            "*.md"
+          fail: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
