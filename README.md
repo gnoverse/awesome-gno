@@ -116,6 +116,7 @@ _Connecting web2 to the gno.land blockchain._
 _Collections of gno packages providing generic functionality which developers can extend with custom code to create applications._
 
 - [daokit](https://github.com/samouraiworld/gnodaokit) - Create DAOs that can mirror real-world organizations.
+- [gnit](https://github.com/gnoverse/gnit) - A composable Git protocol package that lets any realm act as a Git repository.
 
 ## Socials
 
