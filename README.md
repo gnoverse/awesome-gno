@@ -81,7 +81,7 @@ _Tools useful for developing in Gno._
 - [GnoScan](https://gnoscan.io/) - A gno.land block explorer, making on-chain data legible and intuitive for everyone.
 - [tx-indexer](https://github.com/gnolang/tx-indexer) - A TM2 (Tendermint2) chain indexer with GraphQL support.
 - [Supernova](https://github.com/gnolang/supernova) - A stress testing tool for the Gno Tendermint2 blockchain.
-- [Gno Extension for VS Code](https://marketplace.visualstudio.com/items?itemName=harry-hov.gno) - Experimental language support for Gno in VS Code.
+- [Gno Extension for VS Code](https://github.com/gnoverse/vscode-gno) - Official gnoverse-maintained language support for Gno in VS Code.
 - [Gno-mode for Emacs](https://gist.github.com/gfanton/6e233656dfeabd7a46f21f7507b6b311) - Major mode for editing Gno files in Emacs, based on go-mode. Work in progress.
 - [Gno for Sublime Text](https://github.com/gno-playground/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - The `:GnoFileTest` snippet for vim.
