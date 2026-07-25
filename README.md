@@ -71,6 +71,7 @@ _Apps developed by the gno.land community._
 - [Zenao](https://zenao.io) - Organize events in seconds then build your resilient community & social organizations.
 - [Gnomputer](https://github.com/moul/gnomputer) - A windowed web workstation for browsing realms, source, and live chain activity.
 - [dSocial](https://github.com/gnoverse/dsocial) - Experimental social apps, tools, and dApps.
+- [Memba](https://memba.samourai.app) - An experimental web app for managing multisig wallets and DAO governance on gno.land.
 
 ## Tools
 
