@@ -23,13 +23,14 @@ get inspiration and learn about how to become good contributors to gno.land.
 3. [Apps](#apps)
 4. [Community Apps](#community-apps)
 5. [Tools](#tools)
-6. [Tutorials, Presentations, Resources](#tutorials-presentations-resources)
-7. [SDKs & Clients](#sdks--clients)
-8. [Frameworks](#frameworks)
-9. [Socials](#socials)
-10. [Misc](#misc)
-11. [Tips & Snippets](#tips--snippets)
-12. [Archive](#archive)
+6. [Monitoring](#monitoring)
+7. [Tutorials, Presentations, Resources](#tutorials-presentations-resources)
+8. [SDKs & Clients](#sdks--clients)
+9. [Frameworks](#frameworks)
+10. [Socials](#socials)
+11. [Misc](#misc)
+12. [Tips & Snippets](#tips--snippets)
+13. [Archive](#archive)
 
 ## Official Links
 
@@ -91,6 +92,12 @@ _Tools useful for developing in Gno._
 - [gnobro](https://github.com/gnolang/gno/tree/master/contribs/gnobro) - A terminal UI for browsing and exploring Gno realms, with real-time gnodev integration via WebSocket.
 - [gnovanity](https://github.com/gnoverse/gnovanity) - A command-line tool for generating vanity wallet addresses.
 - [gnockpit](https://github.com/gnoverse/gnockpit) - A real-time web dashboard for monitoring validator node health.
+
+## Monitoring
+
+_Tools useful for monitoring in Gno._
+
+- [GnoWatch](https://github.com/RaulBernal/GnoWatch) - Is your validator signing blocks right now? Get alerts via Telegram if it isn't.
 
 ## Tutorials, Presentations, Resources
 
