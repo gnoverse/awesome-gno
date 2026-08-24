@@ -90,6 +90,7 @@ _Tools useful for developing in Gno._
 - [gno-mcp](https://github.com/gnoverse/gno-mcp) - An MCP server and agent skill connecting realms to AI coding assistants like Claude, Cursor, and Gemini CLI.
 - [gnobro](https://github.com/gnolang/gno/tree/master/contribs/gnobro) - A terminal UI for browsing and exploring Gno realms, with real-time gnodev integration via WebSocket.
 - [gnovanity](https://github.com/gnoverse/gnovanity) - A command-line tool for generating vanity wallet addresses.
+- [tm2-indexer](https://github.com/gnoverse/tm2-indexer) - A Tendermint2 PostgreSQL indexer bundled with a Grafana dashboard.
 - [gnockpit](https://github.com/gnoverse/gnockpit) - A real-time web dashboard for monitoring validator node health.
 
 ## Tutorials, Presentations, Resources
