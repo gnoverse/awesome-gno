@@ -43,12 +43,12 @@ get inspiration and learn about how to become good contributors to gno.land.
 
 ## gno.land Networks
 
-_The currently active gno.land networks. Verified 2026-09-17._
+_Testnets are renamed and replaced every few weeks. This list deliberately names only mainnet; for whichever testnet is current, follow the docs link — it is the one URL that stays correct._
 
+- [Gno networks](https://docs.gno.land/resources/gnoland-networks) - **Start here.** The canonical list: the current testnet and its RPC, staging, deployment files, and archives of every past network.
 - [Mainnet](https://github.com/gnolang/gno/tree/chain/mainnet/misc/deployments/mainnet.gno.land) - Chain id `gnoland-1`, live since 12 September 2026, served at gno.land. RPC `https://rpc.gno.land:443`. Real GNOT; there is no mainnet faucet.
-- [Pearl / test16](https://pearl.testnets.gno.land/) - Chain id `pearl-1`. The testnet to use unless you have a reason not to. RPC `https://rpc.pearl.testnets.gno.land:443`, tokens from the [faucet](https://faucet.gno.land).
-- [Staging](https://staging.gno.land/) - Rolling redeploy of `master`; state is best-effort and gets wiped on breaking changes. Currently halted at height 546040 (last block 2026-07-10) — check before relying on it.
-- [Gno networks](https://docs.gno.land/resources/gnoland-networks) - The canonical list, including deployment files and archives of every past testnet.
+- [Faucet Hub](https://faucet.gno.land) - Tokens for whichever testnets are currently running.
+- [Staging](https://staging.gno.land/) - Rolling redeploy of `master`; state is best-effort and gets wiped on breaking changes.
 
 ## Apps
 
@@ -159,8 +159,8 @@ _Older, outdated, or archived items._
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
 - [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on the `r/demo/boards` realm.
 - The Portal Loop - The rolling testnet that used to serve the gno.land homepage; renamed to Staging, and gno.land now serves mainnet.
-- Betanet (`gnoland1`) - Held the `rpc.gno.land` name before mainnet; halted at block 3796411 on 2026-09-14. Not to be confused with mainnet's `gnoland-1`.
-- sapphire (test15), topaz (test14), test13, test1-test12 - Retired testnets. The hosts no longer resolve; use the archives below.
+- Betanet (`gnoland1`) - Held the `rpc.gno.land` name before mainnet. Not to be confused with mainnet's `gnoland-1`.
+- Retired testnets - Every `testN.gno.land` and its named successors. The hosts stop resolving once retired; use the archives below.
 - [tx-exports](https://github.com/gnolang/tx-exports) - Archived transaction data from past and present gno.land networks (mainnet, betanet, staging, sapphire, topaz, and the test1-test13 testnets).
 - [Hello Gno!](https://github.com/xplrz/gnoland-workshop) - A step-by-step workshop on Gno and gno.land's main features.
 - ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl (2023).
