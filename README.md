@@ -36,18 +36,19 @@ get inspiration and learn about how to become good contributors to gno.land.
 - [gno.land](https://gno.land/) - The official website of gno.land.
 - [gno monorepo](https://github.com/gnolang/gno) - The official core repo of the project, containing the core libraries, tools, and example Gno code.
 - [docs.gno.land](https://docs.gno.land) - The official docs of gno.land.
-- [r/docs](https://staging.gno.land/r/docs/home) - The on-chain documentation realm, with runnable examples rendered directly in gno.land.
+- [r/docs](https://staging.gno.land/r/docs/home) - The on-chain documentation realm, with runnable examples rendered directly in gno.land. Currently deployed on Staging only — it is not in the mainnet or Pearl genesis.
 - [gno.land events calendar](https://gno.link/calendar) - The official gno.land Google calendar.
 - [Plan](https://github.com/gnolang/gno/blob/master/PLAN.md) - The foundational plan for gno.land.
 - [Philosophy](https://github.com/gnolang/gno/blob/master/PHILOSOPHY.md) - The fundamental philosophies of gno.land.
 
 ## gno.land Networks
 
-_The currently active gno.land networks._
+_The currently active gno.land networks. Verified 2026-09-17._
 
-- [The Portal Loop](https://docs.gno.land/resources/gnoland-networks) - A rolling testnet, serving as the gno.land homepage.
-- [topaz.testnets.gno.land](https://topaz.testnets.gno.land/) - The latest stable testnet environment.
-- [test13.testnets.gno.land](https://test13.testnets.gno.land/) - The previous stable testnet environment.
+- [gno.land](https://gno.land/) - **Mainnet**, chain id `gnoland-1`, live since 12 September 2026. RPC `https://rpc.gno.land:443`. Real GNOT; there is no mainnet faucet.
+- [pearl.testnets.gno.land](https://pearl.testnets.gno.land/) - **Pearl / test16**, chain id `pearl-1`. The testnet to use unless you have a reason not to. RPC `https://rpc.pearl.testnets.gno.land:443`, tokens from the [faucet](https://faucet.gno.land).
+- [staging.gno.land](https://staging.gno.land/) - Rolling redeploy of `master`; state is best-effort and gets wiped on breaking changes. Currently halted at height 546040 (last block 2026-07-10) — check before relying on it.
+- [Gno networks](https://docs.gno.land/resources/gnoland-networks) - The canonical list, including deployment files and archives of every past testnet.
 
 ## Apps
 
@@ -158,11 +159,10 @@ _Older, outdated, or archived items._
 
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
 - [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on the `r/demo/boards` realm.
-- [test5.gno.land](https://test5.gno.land/) - Fifth official testnet environment (archive).
-- [test3.gno.land](https://test3.gno.land/) - Third official testnet environment (archive).
-- [test2.gno.land](https://test2.gno.land/) - Second official testnet environment (archive).
-- [test1.gno.land](https://test1.gno.land/) - First official testnet environment (archive).
-- [tx-exports](https://github.com/gnolang/tx-exports) - Archived transaction data from past and present gno.land networks (gnoland1, staging, topaz, and the test1-test13 testnets).
+- The Portal Loop - The rolling testnet that used to serve the gno.land homepage; renamed to Staging, and gno.land now serves mainnet.
+- Betanet (`gnoland1`) - Held the `rpc.gno.land` name before mainnet; halted at block 3796411 on 2026-09-14. Not to be confused with mainnet's `gnoland-1`.
+- sapphire (test15), topaz (test14), test13, test1-test12 - Retired testnets. The hosts no longer resolve; use the archives below.
+- [tx-exports](https://github.com/gnolang/tx-exports) - Archived transaction data from past and present gno.land networks (mainnet, betanet, staging, sapphire, topaz, and the test1-test13 testnets).
 - [Hello Gno!](https://github.com/xplrz/gnoland-workshop) - A step-by-step workshop on Gno and gno.land's main features.
 - ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl (2023).
 - [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
