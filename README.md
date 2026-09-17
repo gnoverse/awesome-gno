@@ -122,7 +122,7 @@ _Collections of gno packages providing generic functionality which developers ca
 
 _gno.land's official socials._
 
-- [Discord](https://discord.com/invite/YFtMjWwUN7)
+- [Discord](https://discord.com/invite/gnoland)
 - [Telegram](https://t.me/gnoland)
 - [X/Twitter](https://x.com/_gnoland)
 - [YouTube](https://www.youtube.com/@_gnoland)
