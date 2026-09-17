@@ -36,7 +36,7 @@ get inspiration and learn about how to become good contributors to gno.land.
 - [gno.land](https://gno.land/) - The official website of gno.land.
 - [gno monorepo](https://github.com/gnolang/gno) - The official core repo of the project, containing the core libraries, tools, and example Gno code.
 - [docs.gno.land](https://docs.gno.land) - The official docs of gno.land.
-- [r/docs](https://staging.gno.land/r/docs/home) - The on-chain documentation realm, with runnable examples rendered directly in gno.land. Currently deployed on Staging only — it is not in the mainnet or Pearl genesis.
+- [r/docs](https://staging.gno.land/r/docs/home) - The on-chain documentation realm, with runnable examples rendered directly in gno.land. Currently deployed on Staging only — it is not in the mainnet or testnet genesis.
 - [gno.land events calendar](https://gno.link/calendar) - The official gno.land Google calendar.
 - [Plan](https://github.com/gnolang/gno/blob/master/PLAN.md) - The foundational plan for gno.land.
 - [Philosophy](https://github.com/gnolang/gno/blob/master/PHILOSOPHY.md) - The fundamental philosophies of gno.land.
@@ -161,7 +161,7 @@ _Older, outdated, or archived items._
 - The Portal Loop - The rolling testnet that used to serve the gno.land homepage; renamed to Staging, and gno.land now serves mainnet.
 - Betanet (`gnoland1`) - Held the `rpc.gno.land` name before mainnet. Not to be confused with mainnet's `gnoland-1`.
 - Retired testnets - Every `testN.gno.land` and its named successors. The hosts stop resolving once retired; use the archives below.
-- [tx-exports](https://github.com/gnolang/tx-exports) - Archived transaction data from past and present gno.land networks (mainnet, betanet, staging, sapphire, topaz, and the test1-test13 testnets).
+- [tx-exports](https://github.com/gnolang/tx-exports) - Archived transaction data from past and present gno.land networks, one directory per network.
 - [Hello Gno!](https://github.com/xplrz/gnoland-workshop) - A step-by-step workshop on Gno and gno.land's main features.
 - ["go -> gno" presentation](https://github.com/gnolang/workshops/tree/main/presentations/2023-06-26--go-to-gno--schollz) - "Things I wish I knew when I started out with Gno, when coming from a Go background" by Zack Scholl (2023).
 - [Failing In Public](https://proggr.hashnode.dev/gnoland-initial-experience-gonzo-take-on-failing-in-public) - A gonzo journalist take on first gno/CosmosSDK experiences.
