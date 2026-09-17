@@ -134,7 +134,6 @@ _Miscellaneous._
 
 - [Branding & Assets](https://github.com/gnolang/branding) - Official logo and assets.
 - [Peace](https://gno.land/r/gnoland/blog:p/peace) - A call for peace.
-- [GitPOAP](https://www.gitpoap.io/gh/gnolang) - Contributors (Git) can mint POAPs.
 - [Workshops & Talks](https://github.com/gnolang/workshops) - Slides, videos, and materials to gno.land workshops.
 - [legacy Bounties (deprecated)](https://github.com/gnolang/bounties) - Legacy official bounty board.
 
