@@ -45,9 +45,8 @@ get inspiration and learn about how to become good contributors to gno.land.
 
 _Testnets are renamed and replaced every few weeks. This list deliberately names only mainnet; for whichever testnet is current, follow the docs link — it is the one URL that stays correct._
 
-- [Gno networks](https://docs.gno.land/resources/gnoland-networks) - **Start here.** The canonical list: the current testnet and its RPC, staging, deployment files, and archives of every past network.
+- [Gno networks](https://docs.gno.land/resources/gnoland-networks) - **Start here.** The canonical list: the current testnet and its RPC, staging, deployment files, and archives of every past network. Testnet tokens come from the Gno Faucet Hub, listed under Tools below.
 - [Mainnet](https://github.com/gnolang/gno/tree/chain/mainnet/misc/deployments/mainnet.gno.land) - Chain id `gnoland-1`, live since 12 September 2026, served at gno.land. RPC `https://rpc.gno.land:443`. Real GNOT; there is no mainnet faucet.
-- [Faucet Hub](https://faucet.gno.land) - Tokens for whichever testnets are currently running.
 - [Staging](https://staging.gno.land/) - Rolling redeploy of `master`; state is best-effort and gets wiped on breaking changes.
 
 ## Apps
