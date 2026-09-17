@@ -45,9 +45,9 @@ get inspiration and learn about how to become good contributors to gno.land.
 
 _The currently active gno.land networks. Verified 2026-09-17._
 
-- [gno.land](https://gno.land/) - **Mainnet**, chain id `gnoland-1`, live since 12 September 2026. RPC `https://rpc.gno.land:443`. Real GNOT; there is no mainnet faucet.
-- [pearl.testnets.gno.land](https://pearl.testnets.gno.land/) - **Pearl / test16**, chain id `pearl-1`. The testnet to use unless you have a reason not to. RPC `https://rpc.pearl.testnets.gno.land:443`, tokens from the [faucet](https://faucet.gno.land).
-- [staging.gno.land](https://staging.gno.land/) - Rolling redeploy of `master`; state is best-effort and gets wiped on breaking changes. Currently halted at height 546040 (last block 2026-07-10) — check before relying on it.
+- [Mainnet](https://github.com/gnolang/gno/tree/chain/mainnet/misc/deployments/mainnet.gno.land) - Chain id `gnoland-1`, live since 12 September 2026, served at gno.land. RPC `https://rpc.gno.land:443`. Real GNOT; there is no mainnet faucet.
+- [Pearl / test16](https://pearl.testnets.gno.land/) - Chain id `pearl-1`. The testnet to use unless you have a reason not to. RPC `https://rpc.pearl.testnets.gno.land:443`, tokens from the [faucet](https://faucet.gno.land).
+- [Staging](https://staging.gno.land/) - Rolling redeploy of `master`; state is best-effort and gets wiped on breaking changes. Currently halted at height 546040 (last block 2026-07-10) — check before relying on it.
 - [Gno networks](https://docs.gno.land/resources/gnoland-networks) - The canonical list, including deployment files and archives of every past testnet.
 
 ## Apps
