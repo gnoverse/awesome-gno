@@ -70,6 +70,7 @@ _Apps developed by the gno.land community._
 - [Gnolove](https://gnolove.world) - Community leaderboard and contributions analytics for builders of the Gnoland ecosystem.
 - [Zenao](https://zenao.io) - Organize events in seconds then build your resilient community & social organizations.
 - [Gnomputer](https://github.com/moul/gnomputer) - A windowed web workstation for browsing realms, source, and live chain activity.
+- [Game of Life](https://github.com/gnoverse/game-of-life) - A cellular-automaton simulation with an on-chain smart-contract backend.
 - [dSocial](https://github.com/gnoverse/dsocial) - Experimental social apps, tools, and dApps.
 - [Kourt](https://kourt.xyz) - Fact-staking courts where you stake a court's own coin on claims; the stake always returns 1x, only accuracy pays. [Source](https://github.com/jaekwon/kourt), [realm](https://gno.land/r/g1ecsuj0q572jr0dhu29q9njtnmw03hyu7tyyvv6/kourt).
 
