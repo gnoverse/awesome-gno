@@ -7,6 +7,13 @@
 https?://([a-z0-9-]+\.)*testnets\.gno\.land/?
 https?://test[0-9]+\.gno\.land/?
 
+# Staging, for the same reason. It is a rolling redeploy of master that is
+# wiped on every breaking change, and on 2026-09-24 the host stopped resolving
+# altogether (NXDOMAIN on staging.gno.land and rpc.staging.gno.land, while
+# docs.gno.land still documents it). A network that is down by design must not
+# red every unrelated pull request in this repo.
+https?://([a-z0-9-]+\.)*staging\.gno\.land/?
+
 # Chinese community site, intermittently unreachable from CI runners.
 https?://(www\.)?gnoland\.cn/?
 
