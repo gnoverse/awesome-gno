@@ -54,9 +54,7 @@ _Testnets are renamed and replaced every few weeks. This list deliberately names
 _Apps developed by the gno.land team._
 
 - [Gno Playground](https://play.gno.land/) - An online Gno editor that allows for quick testing, deploying, and sharing of Gno code, modeled after the Go Playground.
-- [Gno Studio Connect](https://gno.studio/connect) - A tool that makes interaction with Gno applications simple.
 - [GnoChess](https://github.com/gnoverse/gnochess) - A chess server implementation in Gno, complete with a frontend, faucet & tutorial to develop your own.
-- [meme.land](https://github.com/gnoverse/memeland) - An image sharing application built using Gno, React and Vue.
 - [Gno Faucet Hub](https://faucet.gno.land) - A central place for all gno.land faucets.
 - [Is gno.land down?](https://status.gnoteam.com) - A dashboard showing the status of gno.land services & networks.
 - [OpenOcean](https://github.com/Molaryy/openocean) - OpenSea Clone in Gno.
@@ -158,6 +156,8 @@ are awesome. You could [vote for them](https://github.com/gnoverse/awesome-gno/p
 _Older, outdated, or archived items._
 
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
+- [Gno Studio Connect](https://gno.studio/connect) - A tool that makes interaction with Gno applications simple. Its network selector only offers retired testnets, so it cannot reach mainnet.
+- [meme.land](https://github.com/gnoverse/memeland) - An image sharing application built using Gno, React and Vue. The hosted front end no longer reaches a chain.
 - [Gno to Discord](https://github.com/PoCInnovation/PoCLab) - Send notifications on Discord for new content on the `r/demo/boards` realm.
 - The Portal Loop - The rolling testnet that used to serve the gno.land homepage; renamed to Staging, and gno.land now serves mainnet.
 - Betanet (`gnoland1`) - Held the `rpc.gno.land` name before mainnet. Not to be confused with mainnet's `gnoland-1`.
