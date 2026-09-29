@@ -65,11 +65,12 @@ _Apps developed by the gno.land community._
 
 - [Gnoswap](https://github.com/gnoswap-labs/gnoswap) - The first DEX built on gno.land (currently in beta).
 - [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
-- [Gnolove](https://gnolove.world) - Community leaderboard and contributions analytics for builders of the Gnoland ecosystem.
+- [Gnolove](https://memba.samourai.app/gnolove) - Community leaderboard and contributions analytics for builders of the Gnoland ecosystem.
 - [Zenao](https://zenao.io) - Organize events in seconds then build your resilient community & social organizations.
 - [Gnomputer](https://github.com/moul/gnomputer) - A windowed web workstation for browsing realms, source, and live chain activity.
 - [dSocial](https://github.com/gnoverse/dsocial) - Experimental social apps, tools, and dApps.
 - [Kourt](https://kourt.xyz) - Fact-staking courts where you stake a court's own coin on claims; the stake always returns 1x, only accuracy pays. [Source](https://github.com/jaekwon/kourt), [realm](https://gno.land/r/g1ecsuj0q572jr0dhu29q9njtnmw03hyu7tyyvv6/kourt).
+- [Bubble Rumble](https://bubblerumble.net) - Last bid standing takes the pot: every bid pushes the pool's clock out and pays a share straight to the pool's earlier bidders, and a bid may carry a shot at popping the bubble early. [realm](https://gno.land/r/g1leu8d2vsplhehcfkjg50mwgdpxdkt8tztu95wr/bubblerumble5).
 
 ## Tools
 
