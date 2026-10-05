@@ -71,6 +71,7 @@ _Apps developed by the gno.land community._
 - [dSocial](https://github.com/gnoverse/dsocial) - Experimental social apps, tools, and dApps.
 - [Kourt](https://kourt.xyz) - Fact-staking courts where you stake a court's own coin on claims; the stake always returns 1x, only accuracy pays. [Source](https://github.com/jaekwon/kourt), [realm](https://gno.land/r/g1ecsuj0q572jr0dhu29q9njtnmw03hyu7tyyvv6/kourt).
 - [Bubble Rumble](https://bubblerumble.net) - Last bid standing takes the pot: every bid pushes the pool's clock out and pays a share straight to the pool's earlier bidders, and a bid may carry a shot at popping the bubble early. [realm](https://gno.land/r/g1leu8d2vsplhehcfkjg50mwgdpxdkt8tztu95wr/bubblerumble5).
+- [Gnogolf](https://gnogolf.xyz) - Free 3D mini-golf in the browser where every hole is a contract and the chain computes every shot, so nobody can fake a score; no wallet needed to play. [realm](https://onyx.testnets.gno.land/r/nym-alexiscolin000/gnogolf/golf/v2).
 
 ## Tools
 
