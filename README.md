@@ -92,6 +92,7 @@ _Tools useful for developing in Gno._
 - [gnobro](https://github.com/gnolang/gno/tree/master/contribs/gnobro) - A terminal UI for browsing and exploring Gno realms, with real-time gnodev integration via WebSocket.
 - [gnovanity](https://github.com/gnoverse/gnovanity) - A command-line tool for generating vanity wallet addresses.
 - [gnockpit](https://github.com/gnoverse/gnockpit) - A real-time web dashboard for monitoring validator node health.
+- [gnomonitoring](https://github.com/samouraiworld/gnomonitoring) - Validator participation alerts on Discord, Slack and Telegram, GovDAO proposal tracking, and Prometheus metrics.
 - [mygnoscan](https://github.com/gnoverse/mygnoscan) - A fast, minimal block explorer with realm dependency graphs and usage tracking.
 - [gnopm](https://github.com/moul/gnopm) - A package manager for workspaces: a package's version lives in its gnomod.toml rather than in its directory name, so a bump is a one-line diff instead of a copied directory.
 
