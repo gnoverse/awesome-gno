@@ -94,6 +94,7 @@ _Tools useful for developing in Gno._
 - [gnockpit](https://github.com/gnoverse/gnockpit) - A real-time web dashboard for monitoring validator node health.
 - [gnoscope](https://github.com/gnoverse/gnoscope) - A fast, minimal block explorer with realm dependency graphs and usage tracking.
 - [gnopm](https://github.com/moul/gnopm) - A package manager for workspaces: a package's version lives in its gnomod.toml rather than in its directory name, so a bump is a one-line diff instead of a copied directory.
+- [gnoreplay](https://gnoreplay.zxq.co/) - Replays the whole gnoland-1 history against every push and PR of a tracked branch, flagging changes that would alter the outcome or gas of past transactions.
 
 ## Tutorials, Presentations, Resources
 
