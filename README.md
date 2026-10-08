@@ -114,6 +114,7 @@ _Connecting web2 to the gno.land blockchain._
 - [tm2-js-client](https://github.com/gnolang/tm2-js-client) - A TM2 JavaScript client library.
 - [gno-js-client](https://github.com/gnolang/gno-js-client) - A Gno JavaScript client library, built upon `tm2-js` with additional Gno-specific functionality.
 - [gnonative](https://github.com/gnolang/gnonative) - A framework for building and porting gno.land dApps in your native language, with React Native and Expo support.
+- [safeurl-sdk](https://github.com/gnoverse/safeurl-sdk) - The client SDK for the SafeURL screening service.
 
 ## Frameworks
 
