@@ -23,13 +23,14 @@ get inspiration and learn about how to become good contributors to gno.land.
 3. [Apps](#apps)
 4. [Community Apps](#community-apps)
 5. [Tools](#tools)
-6. [Tutorials, Presentations, Resources](#tutorials-presentations-resources)
-7. [SDKs & Clients](#sdks--clients)
-8. [Frameworks](#frameworks)
-9. [Socials](#socials)
-10. [Misc](#misc)
-11. [Tips & Snippets](#tips--snippets)
-12. [Archive](#archive)
+6. [Monitoring](#monitoring)
+7. [Tutorials, Presentations, Resources](#tutorials-presentations-resources)
+8. [SDKs & Clients](#sdks--clients)
+9. [Frameworks](#frameworks)
+10. [Socials](#socials)
+11. [Misc](#misc)
+12. [Tips & Snippets](#tips--snippets)
+13. [Archive](#archive)
 
 ## Official Links
 
@@ -95,6 +96,12 @@ _Tools useful for developing in Gno._
 - [gnoscope](https://github.com/gnoverse/gnoscope) - A fast, minimal block explorer with realm dependency graphs and usage tracking.
 - [gnopm](https://github.com/moul/gnopm) - A package manager for workspaces: a package's version lives in its gnomod.toml rather than in its directory name, so a bump is a one-line diff instead of a copied directory.
 - [gnoreplay](https://gnoreplay.zxq.co/) - Replays the whole gnoland-1 history against every push and PR of a tracked branch, flagging changes that would alter the outcome or gas of past transactions.
+
+## Monitoring
+
+_Tools useful for monitoring in Gno._
+
+- [GnoWatch](https://github.com/RaulBernal/GnoWatch) - Is your validator signing blocks right now? Get alerts via Telegram if it isn't.
 
 ## Tutorials, Presentations, Resources
 
