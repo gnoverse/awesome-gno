@@ -36,7 +36,6 @@ get inspiration and learn about how to become good contributors to gno.land.
 - [gno.land](https://gno.land/) - The official website of gno.land.
 - [gno monorepo](https://github.com/gnolang/gno) - The official core repo of the project, containing the core libraries, tools, and example Gno code.
 - [docs.gno.land](https://docs.gno.land) - The official docs of gno.land.
-- [r/docs](https://staging.gno.land/r/docs/home) - The on-chain documentation realm, with runnable examples rendered directly in gno.land. Currently deployed on Staging only — it is not in the mainnet or testnet genesis.
 - [gno.land events calendar](https://gno.link/calendar) - The official gno.land Google calendar.
 - [Plan](https://github.com/gnolang/gno/blob/master/PLAN.md) - The foundational plan for gno.land.
 - [Philosophy](https://github.com/gnolang/gno/blob/master/PHILOSOPHY.md) - The fundamental philosophies of gno.land.
@@ -65,7 +64,7 @@ _Apps developed by the gno.land community._
 
 - [Gnoswap](https://github.com/gnoswap-labs/gnoswap) - The first DEX built on gno.land (currently in beta).
 - [Adena Wallet](https://adena.app/) - Friendly wallet that simplifies sending & receiving tokens, staking, NFT storage, and dapp connections.
-- [Gnolove](https://memba.samourai.app/gnolove) - Community leaderboard and contributions analytics for builders of the Gnoland ecosystem.
+- [Gnolove](https://memba.club/gnolove) - Community leaderboard and contributions analytics for builders of the Gnoland ecosystem.
 - [Zenao](https://zenao.io) - Organize events in seconds then build your resilient community & social organizations.
 - [Gnomputer](https://github.com/moul/gnomputer) - A windowed web workstation for browsing realms, source, and live chain activity.
 - [dSocial](https://github.com/gnoverse/dsocial) - Experimental social apps, tools, and dApps.
@@ -86,7 +85,7 @@ _Tools useful for developing in Gno._
 - [Gno-mode for Emacs](https://gist.github.com/gfanton/6e233656dfeabd7a46f21f7507b6b311) - Major mode for editing Gno files in Emacs, based on go-mode. Work in progress.
 - [Gno for Sublime Text](https://github.com/gno-playground/gno-sublime-text) - Gno syntax highlighting for Sublime Text.
 - [:GnoFileTest command for vim](https://gist.github.com/grepsuzette/66f5cfaccc1a919c67f52bd7b31a3b09) - The `:GnoFileTest` snippet for vim.
-- [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim.
+- [tlin](https://github.com/gnoverse/tlin) - An advanced linter with extra static-analysis rules and style checks.
 - [gnopls](https://github.com/gnoverse/gnopls) - A language server providing editor features like autocompletion, hover, and go-to-definition.
 - [gno-mcp](https://github.com/gnoverse/gno-mcp) - An MCP server and agent skill connecting realms to AI coding assistants like Claude, Cursor, and Gemini CLI.
 - [gnobro](https://github.com/gnolang/gno/tree/master/contribs/gnobro) - A terminal UI for browsing and exploring Gno realms, with real-time gnodev integration via WebSocket.
@@ -159,6 +158,8 @@ are awesome. You could [vote for them](https://github.com/gnoverse/awesome-gno/p
 
 _Older, outdated, or archived items._
 
+- [r/docs](https://github.com/gnolang/gno/tree/master/examples/quarantined/gno.land/r/docs/home) - The on-chain documentation realm with runnable examples. Quarantined in the monorepo since June 2026 and deployed on no live network.
+- [gno.nvim](https://github.com/x1unix/gno.nvim) - Gno language support for NeoVim. Repository archived upstream in January 2025.
 - [Keplr Integration](https://github.com/gnolang/gno/pull/154) - WIP Integration with the Keplr browser extension.
 - [Gno Studio Connect](https://gno.studio/connect) - A tool that makes interaction with Gno applications simple. Its network selector only offers retired testnets, so it cannot reach mainnet.
 - [meme.land](https://github.com/gnoverse/memeland) - An image sharing application built using Gno, React and Vue. The hosted front end no longer reaches a chain.
